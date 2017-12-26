@@ -1,0 +1,54 @@
+include misc.e
+
+object line
+sequence buffer
+integer fn
+buffer={}
+
+
+fn=open("data.txt","r")
+
+
+while 1 do
+  line=gets(fn)
+  if integer(line) then
+    exit
+  end if
+  buffer=append(buffer,line)
+end while
+close(fn)
+
+sequence list_names
+list_names={}
+
+procedure name_add(sequence name)
+integer found 
+  found=0
+  for i=1 to length(list_names) do
+    if equal(list_names[i],name) then
+      found =1
+      exit
+    end if
+  end for
+  if found=0 then
+    list_names=append(list_names,name)
+  end if
+end procedure 
+
+for i=1 to length(buffer) do
+  for j=1 to length(buffer[i]) do
+    if buffer[i][j]=' ' then
+      name_add(buffer[i][1..j-1])
+      exit
+    end if
+  end for
+end for
+
+
+fn=open("names.txt","w")
+
+for i=1 to length(list_names) do
+  puts(fn,"{"&{'"'}&list_names[i]&{'"'}&",0},\n")  
+end for
+
+close(fn)

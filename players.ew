@@ -1,0 +1,54 @@
+global sequence player_class_list,class_freelist
+player_class_list={}
+class_freelist={}
+constant player_object_id = 1
+constant player_stats = 2
+constant player_position = 3
+constant player_class = 4
+constant player_2dposition = 5
+constant player_name = 6
+constant player_message = 7
+
+--{temp[1],stats,location_get(temp[2]),found}
+
+global function player_new(integer object_id, sequence stats, sequence position, integer class,sequence position2d,sequence name)
+  integer handle
+  if length(class_freelist)>0 then
+    handle= class_freelist[1]
+    class_freelist = class_freelist[2..length(class_freelist)]
+  else
+    player_class_list= append(player_class_list,{})
+    handle=length(player_class_list)
+  end if
+
+   player_class_list[handle]={object_id,stats,position,class,position2d,name,{"",0}}
+
+  return handle
+end function
+
+global procedure player_update(integer handle,sequence stats, sequence position,sequence position2d)
+  player_class_list[handle][player_stats]=stats
+  player_class_list[handle][player_position]=position
+  player_class_list[handle][player_2dposition]=position2d
+end procedure
+
+global procedure player_message_set(integer handle,sequence message)
+  player_class_list[handle][player_message]=message
+end procedure
+
+global function player_message_get(integer handle)
+  return player_class_list[handle][player_message]
+end function
+
+global function player_stats_get(integer handle)
+  return player_class_list[handle][player_stats]
+end function
+
+global procedure player_delete(integer handle)
+  player_class_list[handle]={}
+  class_freelist =append(class_freelist, handle)
+end procedure
+
+global procedure player_freelist_delete()--hack
+  class_freelist={}
+end procedure

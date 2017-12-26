@@ -1,0 +1,423 @@
+root found
+Char
+id  710
+ObjectType  782
+Level  1
+Exp  0
+CurrentFame  0
+Equipment  2711,2606,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+MaxHitPoints  100
+HitPoints  100
+MaxMagicPoints  100
+MagicPoints  100
+Attack  12
+Defense  0
+Speed  10
+Dexterity  15
+HpRegen  12
+MpRegen  12
+PCStats  AwAAD5M=
+HealthStackCount  1
+MagicStackCount  0
+Dead  False
+casToken  None
+Account  
+Name  UbCtkckPRl
+XpBoosted  0
+XpTimer  0
+LDTimer  0
+LTTimer  0
+HasBackpack  0
+Account
+Credits  50
+NextCharSlotPrice  600
+AccountId  5732277363408896
+VerifiedEmail  
+Vault  
+Gifts  
+Originating  None
+cleanPasswordStatus  1
+Name  UbCtkckPRl
+NameChosen  
+BeginnerPackageTimeLeft  0
+IsAgeVerified  1
+PetYardType  1
+ArenaTickets  0
+Stats  
+ClassStats  objectType  0x300
+
+BestLevel  12
+BestFame  14
+ClassStats  objectType  0x307
+
+BestLevel  11
+BestFame  14
+ClassStats  objectType  0x30e
+
+BestLevel  20
+BestFame  169
+ClassStats  objectType  0x310
+
+BestLevel  5
+BestFame  15
+ClassStats  objectType  0x31d
+
+BestLevel  17
+BestFame  51
+BestCharFame  169
+TotalFame  416
+Fame  416
+Guild  id  5297459070763008
+
+Name  WeAreLegionBot
+Rank  0
+News
+Item  
+Icon  fame
+Title  Your Priest died at level 1
+TagLine  You earned 0 glorious Fame
+Link  fame:707
+Date  1386897356
+Item  
+Icon  fame
+Title  Your Priest died at level 1
+TagLine  You earned 0 glorious Fame
+Link  fame:706
+Date  1386897320
+Item  
+Icon  fame
+Title  Your Wizard died at level 2
+TagLine  You earned 0 glorious Fame
+Link  fame:705
+Date  1386895142
+Item  
+Icon  fame
+Title  Your Wizard died at level 20
+TagLine  You earned 169 glorious Fame
+Link  fame:704
+Date  1386768743
+Item  
+Icon  fame
+Title  Your Wizard died at level 1
+TagLine  You earned 0 glorious Fame
+Link  fame:703
+Date  1386692695
+Item  
+Icon  fame
+Title  Your Wizard died at level 1
+TagLine  You earned 0 glorious Fame
+Link  fame:702
+Date  1386692639
+Item  
+Icon  fame
+Title  Your Wizard died at level 1
+TagLine  You earned 0 glorious Fame
+Link  fame:701
+Date  1386692552
+Item  
+Icon  fame
+Title  Your Wizard died at level 2
+TagLine  You earned 0 glorious Fame
+Link  fame:700
+Date  1386692548
+Item  
+Icon  fame
+Title  Your Wizard died at level 1
+TagLine  You earned 0 glorious Fame
+Link  fame:699
+Date  1386692376
+Item  
+Icon  fame
+Title  Your Wizard died at level 1
+TagLine  You earned 0 glorious Fame
+Link  fame:698
+Date  1386692361
+Servers
+Server  
+Name  USWest
+DNS  54.241.208.233
+Lat  37.34
+Long  -121.89
+Usage  0.00
+Server  
+Name  USMidWest
+DNS  54.80.67.112
+Lat  38.63
+Long  -90.20
+Usage  0.00
+Server  
+Name  EUWest
+DNS  54.195.57.43
+Lat  53.48
+Long  -2.23
+Usage  0.00
+Server  
+Name  USEast
+DNS  54.224.68.81
+Lat  42.36
+Long  -71.06
+Usage  0.00
+Server  
+Name  AsiaSouthEast
+DNS  54.255.15.39
+Lat  1.35
+Long  103.82
+Usage  0.00
+Server  
+Name  USSouth
+DNS  23.22.180.212
+Lat  35.23
+Long  -80.84
+Usage  0.00
+Server  
+Name  USSouthWest
+DNS  54.219.44.205
+Lat  32.80
+Long  -96.77
+Usage  0.00
+Server  
+Name  EUEast
+DNS  46.137.30.179
+Lat  54.69
+Long  25.28
+Usage  0.00
+Server  
+Name  EUNorth
+DNS  54.195.96.152
+Lat  59.33
+Long  18.06
+Usage  0.00
+Server  
+Name  EUSouthWest
+DNS  54.217.63.70
+Lat  48.86
+Long  2.35
+Usage  0.00
+Server  
+Name  USEast3
+DNS  54.226.214.216
+Lat  39.95
+Long  -75.16
+Usage  0.00
+Server  
+Name  USWest2
+DNS  54.193.168.4
+Lat  36.75
+Long  -119.77
+Usage  0.00
+Server  
+Name  USMidWest2
+DNS  50.17.143.165
+Lat  41.88
+Long  -87.63
+Usage  0.00
+Server  
+Name  USEast2
+DNS  54.204.50.57
+Lat  42.89
+Long  -78.88
+Usage  0.00
+Server  
+Name  USNorthWest
+DNS  50.18.24.120
+Lat  42.33
+Long  -122.88
+Usage  0.00
+Server  
+Name  AsiaEast
+DNS  175.41.201.80
+Lat  25.09
+Long  121.56
+Usage  0.00
+Server  
+Name  USSouth3
+DNS  54.80.250.47
+Lat  -30.03
+Long  -51.23
+Usage  0.00
+Server  
+Name  EUNorth2
+DNS  54.216.200.98
+Lat  54.32
+Long  10.12
+Usage  0.00
+Server  
+Name  EUWest2
+DNS  54.195.154.140
+Lat  51.51
+Long  -0.13
+Usage  0.00
+Server  
+Name  EUSouth
+DNS  54.195.179.215
+Lat  53.00
+Long  -8.00
+Usage  0.00
+Server  
+Name  USSouth2
+DNS  50.19.7.133
+Lat  100.00
+Long  100.00
+Usage  0.00
+Server  
+Name  USWest3
+DNS  54.241.223.240
+Lat  37.76
+Long  -121.95
+Usage  0.00
+Lat
+51.23  Long
+-2.32  KabamPaymentInfo
+naid  158165260
+signedRequest  _E21LnrUNMos9uHVl1PbWmsJ8MBGe24S8oFQFbWc6CQ.eyJuYWlkIjogIjE1ODE2NTI2MCJ9
+ClassAvailabilityList
+ClassAvailability  id  Rogue
+unrestricted
+ClassAvailability  id  Assassin
+available
+ClassAvailability  id  Huntress
+available
+ClassAvailability  id  Mystic
+available
+ClassAvailability  id  Trickster
+available
+ClassAvailability  id  Sorcerer
+available
+ClassAvailability  id  Ninja
+available
+ClassAvailability  id  Archer
+unrestricted
+ClassAvailability  id  Wizard
+unrestricted
+ClassAvailability  id  Priest
+unrestricted
+ClassAvailability  id  Necromancer
+available
+ClassAvailability  id  Warrior
+unrestricted
+ClassAvailability  id  Knight
+available
+ClassAvailability  id  Paladin
+available
+OwnedSkins
+ItemCosts
+ItemCost  type  900
+purchasable  0
+expires  0
+90000
+ItemCost  type  902
+purchasable  0
+expires  0
+90000
+ItemCost  type  834
+purchasable  1
+expires  0
+900
+ItemCost  type  835
+purchasable  1
+expires  0
+600
+ItemCost  type  836
+purchasable  1
+expires  0
+900
+ItemCost  type  837
+purchasable  1
+expires  0
+600
+ItemCost  type  838
+purchasable  1
+expires  0
+900
+ItemCost  type  839
+purchasable  1
+expires  0
+900
+ItemCost  type  840
+purchasable  1
+expires  0
+900
+ItemCost  type  841
+purchasable  1
+expires  0
+900
+ItemCost  type  842
+purchasable  1
+expires  0
+900
+ItemCost  type  843
+purchasable  1
+expires  0
+900
+ItemCost  type  844
+purchasable  1
+expires  0
+900
+ItemCost  type  845
+purchasable  1
+expires  0
+900
+ItemCost  type  846
+purchasable  1
+expires  0
+900
+ItemCost  type  847
+purchasable  1
+expires  0
+900
+ItemCost  type  848
+purchasable  1
+expires  0
+900
+ItemCost  type  849
+purchasable  1
+expires  0
+900
+ItemCost  type  850
+purchasable  0
+expires  1
+900
+ItemCost  type  851
+purchasable  0
+expires  1
+900
+ItemCost  type  852
+purchasable  1
+expires  0
+900
+ItemCost  type  853
+purchasable  1
+expires  0
+900
+ItemCost  type  854
+purchasable  1
+expires  0
+900
+ItemCost  type  855
+purchasable  1
+expires  0
+900
+ItemCost  type  856
+purchasable  0
+expires  0
+90000
+ItemCost  type  883
+purchasable  0
+expires  0
+90000
+MaxClassLevelList
+MaxClassLevel  classType  784
+maxLevel  5
+
+MaxClassLevel  classType  768
+maxLevel  12
+
+MaxClassLevel  classType  797
+maxLevel  17
+
+MaxClassLevel  classType  782
+maxLevel  20
+
+MaxClassLevel  classType  775
+maxLevel  11
+

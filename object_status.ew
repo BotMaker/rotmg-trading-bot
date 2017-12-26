@@ -1,0 +1,54 @@
+include input_stream.ew
+include object_status_data.ew
+
+sequence class_list,class_freelist
+
+class_list={}
+class_freelist={}
+constant object_type = 1
+constant object_status_data = 2
+
+global function object_status_new()
+  integer handle
+  if length(class_freelist)>0 then
+    handle= class_freelist[1]
+    class_freelist = class_freelist[2..length(class_freelist)]
+  else
+    class_list= append(class_list,{})
+    handle=length(class_list)
+  end if
+
+  class_list[handle]={0,0}
+
+  return handle
+end function
+
+global function object_status_new_from_input(integer inputstream)
+  integer handle
+  if length(class_freelist)>0 then
+    handle= class_freelist[1]
+    class_freelist = class_freelist[2..length(class_freelist)]
+  else
+    class_list= append(class_list,{})
+    handle=length(class_list)
+  end if
+
+  class_list[handle]={input_stream_readshort(inputstream),object_status_data_new_from_input(inputstream)}
+
+  return handle
+end function
+
+global function object_status_get(integer handle)
+  return class_list[handle]
+end function 
+
+global function object_status_classsize()
+  return length(class_list)
+end function 
+
+
+global procedure object_status_delete(integer handle)
+  object_status_data_delete(class_list[handle][object_status_data])
+  class_list[handle]={}
+  class_freelist =append(class_freelist, handle)
+end procedure

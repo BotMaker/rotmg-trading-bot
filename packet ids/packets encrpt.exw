@@ -1,0 +1,44 @@
+-- a lexer would be needed for anything more complex 
+--key uid --public static const FAILURE:int
+
+include misc.e
+
+object line
+sequence buffer
+integer fn
+buffer={}
+
+fn=open("packets.inf","rb")
+while 1 do
+  line=gets(fn)
+  if integer(line) then
+    exit
+  end if
+  buffer=append(buffer,line)
+ 
+end while
+close(fn)
+
+
+
+fn=open("packets enc.inf","wb")
+
+sequence key
+integer pos
+pos=1
+key="loop1234abcd"
+
+for i=1 to length(buffer) do
+  for j=1 to length(buffer[i]) do
+    buffer[i][j]=xor_bits(buffer[i][j], key[pos] )
+    pos+=1
+    if pos>length(key) then
+      pos=1
+    end if
+  end for
+  puts(fn, buffer[i])
+end for
+
+close(fn)
+
+

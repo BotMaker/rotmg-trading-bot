@@ -1,0 +1,66 @@
+include misc.e
+include get.e
+include wildcard.e
+include file.e
+
+sequence flist
+
+integer fn
+
+sequence buffer
+object line
+buffer={}
+
+sequence temp
+
+function fileload()
+sequence buffer2
+object line2
+buffer2={}
+  while 1 do
+    line2=gets(fn)
+
+     if integer(line2) then
+       exit
+     end if
+
+    buffer2=append(buffer2,line2)
+  end while 
+  return buffer2
+end function
+
+fn=open("constants.js","r")
+buffer=fileload()
+close(fn)
+
+sequence buffer2
+buffer2={}
+
+for i=1 to length(buffer) do
+  for j=1 to length(buffer[i]) do
+     if buffer[i][j]=':' then  --item id
+       for k=j+2 to length(buffer[i]) do
+         if buffer[i][k]=',' then  -- 
+           for l=k to length(buffer[i]) do
+             if buffer[i][l]=']' then  -- 
+               buffer2=append(buffer2,"{#"&upper(buffer[i][3..j-1])&","&buffer[i][k+1..l-1]&"},\n")
+               exit
+             end if
+           end for
+           exit
+         end if
+       end for
+       exit
+     end if
+  end for
+end for
+
+
+fn=open("items.txt","w")
+
+for i=1 to length(buffer2) do
+  puts(fn, buffer2[i])
+end for
+close(fn)
+
+sleep(1)

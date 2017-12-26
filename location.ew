@@ -1,0 +1,63 @@
+include input_stream.ew
+
+sequence class_list,class_freelist
+class_list={}
+class_freelist={}
+constant location_x = 1
+constant location_y = 2
+
+global function location_new()
+  integer handle
+  if length(class_freelist)>0 then
+    handle= class_freelist[1]
+    class_freelist = class_freelist[2..length(class_freelist)]
+  else
+    class_list= append(class_list,{})
+    handle=length(class_list)
+  end if
+
+  class_list[handle]={0,0}
+
+  return handle
+end function
+
+global function location_new_from_input(integer inputstream)
+  integer handle
+  if length(class_freelist)>0 then
+    handle= class_freelist[1]
+    class_freelist = class_freelist[2..length(class_freelist)]
+  else
+    class_list= append(class_list,{})
+    handle=length(class_list)
+  end if
+
+  class_list[handle]={input_stream_readfloat(inputstream),input_stream_readfloat(inputstream)}
+
+  return handle
+end function
+
+global procedure location_delete(integer handle)
+  class_list[handle]={}
+  class_freelist =append(class_freelist, handle)
+end procedure
+
+global function location_classsize()
+  return length(class_list)
+end function
+
+global function location_get(integer handle)
+  return class_list[handle]
+end function
+
+global function location_get_x(integer handle)
+  return class_list[handle][location_x]
+end function
+
+global function location_get_y(integer handle)
+  return class_list[handle][location_y]
+end function
+
+global procedure location_set(integer handle, atom x,atom y)
+  class_list[handle][location_x]=x
+  class_list[handle][location_y]=y
+end procedure

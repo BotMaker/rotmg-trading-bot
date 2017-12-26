@@ -1,0 +1,183 @@
+include machine.e
+
+
+
+sequence class_list,class_freelist
+class_list={}
+class_freelist={}
+constant rc4_arg1 = 1
+
+
+global function rc4_new()
+  atom state_address,a_address,b_address,data_address,key_address,max_block_size,arcf_init,key_length_address,arcfour_enc,max_data_address
+
+  integer handle
+
+  if length(class_freelist)>0 then
+    handle= class_freelist[1]
+    class_freelist = class_freelist[2..length(class_freelist)]
+  else
+    class_list= append(class_list,{})
+    handle=length(class_list)
+  end if
+
+  state_address=allocate(256)
+  a_address=allocate(2)
+  b_address=a_address+1
+  max_block_size=1024
+  data_address=allocate(max_block_size)
+  key_address = allocate(256)
+
+  arcf_init = allocate(88)
+  poke( arcf_init, and_bits(#FF,
+  "ÅÈÆÇÌË¦5¦G.uuuuş@ıx¸s5±uêl¦P3uuuu¦tÿ‰}w‘¬uHÿ©€ı‰€ı©}¼ötuuuuçw¦tµ²"-117&
+  "üıüünØüüüüüüüüZ[VUWT¿"+4))
+  poke4(arcf_init + 11, state_address)
+  poke4(arcf_init + 29, key_address)
+  poke4(arcf_init + 72, a_address)
+  poke4(arcf_init + 77, b_address)
+  key_length_address = arcf_init + 55
+
+
+  arcfour_enc = allocate(93)
+  poke(arcfour_enc, and_bits(#FF,"øûùúÿşÙhÙzH¨¨¨¨2Í¨¨¨¨a¨¨¨¨f¨¨¨¨¦hÙz0j1©w2Ç¨„0Š©r2â0Â0çÙz0‚¨¢2¼²Ø¾"+88&"E€ıÿÿÿÿqÓ¡ÿÿÿÿ‡$ÿÿÿÿ]^YXZWÂ"+1))
+  poke4(arcfour_enc + 11, a_address)
+  poke4(arcfour_enc + 17, b_address)
+  poke4(arcfour_enc + 22, state_address)
+  poke4(arcfour_enc + 27, data_address)
+  poke4(arcfour_enc + 76, a_address)
+  poke4(arcfour_enc + 82, b_address)
+
+  max_data_address = arcfour_enc + 69
+
+  class_list[handle]={state_address,
+                      a_address,
+                      b_address,
+                      max_block_size,
+                      data_address,
+                      key_address,
+                      arcf_init,
+                      key_length_address,
+                      arcfour_enc,
+                      max_data_address,
+                      {} --11
+                      }
+
+  return handle
+end function
+
+
+global procedure rc4_delete(integer handle)
+  free(class_list[handle][1])
+  free(class_list[handle][2])
+  free(class_list[handle][5])
+  free(class_list[handle][6])
+  free(class_list[handle][7])
+  free(class_list[handle][9])
+  class_list[handle]={}
+  class_freelist =append(class_freelist, handle)
+
+end procedure
+
+
+
+
+
+-- Read, write and clean state
+function get_state(integer handle)
+    return {peek(class_list[handle][2]), peek(class_list[handle][3]), peek({class_list[handle][1], 256})}
+end function
+
+procedure put_state(integer handle,sequence state)
+    poke(class_list[handle][2], state[1])
+    poke(class_list[handle][3], state[2])
+    poke(class_list[handle][1], state[3])
+end procedure
+
+procedure clean_state(integer handle)
+    poke(class_list[handle][2], 0)
+    poke(class_list[handle][3], 0)
+    mem_set(class_list[handle][1], 0, 256)
+end procedure
+
+-- Generate state based on key
+procedure arcfour_init(integer handle,sequence key)
+    -- Write key length
+    poke4(class_list[handle][8], length(key))
+    -- Write key
+    poke(class_list[handle][6], key)
+    -- Call initialization routine
+    call(class_list[handle][7])
+end procedure
+
+
+
+function arcfour_encryption(integer handle,sequence data)
+
+    -- Store maximum block length
+    poke4(class_list[handle][10], class_list[handle][5]+class_list[handle][4])
+
+    for t=1 to length(data) by class_list[handle][4] do
+	-- Proccess one block at a time
+	if t+class_list[handle][4]<=length(data) then   -- Not last block yet
+
+	    -- Write data to memory
+	    poke(class_list[handle][5],data[t..t+class_list[handle][4]-1])
+	    -- Call encryption/decryption routine
+	    call(class_list[handle][9])
+	    -- Store data in sequence
+	    data[t..t+class_list[handle][4]-1]=peek({class_list[handle][5],class_list[handle][4]})
+
+	else                                -- Last block
+
+	    -- Write data length
+	    poke4(class_list[handle][10], class_list[handle][5]+length(data)-t+1)
+	    -- Write data to memory
+	    poke(class_list[handle][5],data[t..length(data)])
+	    -- Call encryption/decryption routine
+	    call(class_list[handle][9])
+	    -- Store data in sequence
+	    data[t..length(data)]=peek({class_list[handle][5],length(data)-t+1})
+
+	end if
+
+    end for
+
+    -- Erase data from memory
+    mem_set (class_list[handle][5], 0, class_list[handle][4])
+    return data
+end function
+
+
+-- Stream routines
+
+global procedure arcfour_init_encrypt(integer handle,sequence key)
+    arcfour_init(handle,key)
+    class_list[handle][11] = get_state(handle)
+    clean_state(handle)
+end procedure
+
+global function arcfour_encrypt_block(integer handle,sequence data)
+    put_state(handle, class_list[handle][11])
+    data = arcfour_encryption (handle,data)
+    class_list[handle][11] = get_state(handle)
+    clean_state(handle)
+    return data
+end function
+
+global function arcfour_decrypt_block(integer handle,sequence data)
+    return arcfour_encrypt_block(handle,data)
+end function
+
+-- Simple routines
+global function arcfour_encrypt(integer handle,sequence data, sequence key)
+    arcfour_init(handle,key)
+    data = arcfour_encryption (handle,data)
+    clean_state(handle)
+    return data
+end function
+
+global function arcfour_decrypt(integer handle,sequence data, sequence key)
+    return arcfour_encrypt(handle,data, key)
+end function
+

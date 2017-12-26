@@ -1,0 +1,48 @@
+procedure process_children(atom node)
+atom nchild,att,celement
+
+	nchild=tinyxml_node_firstchild(node)
+	if nchild=0 then
+   	  return
+    end if
+
+    if tinyxml_node_nochildren(nchild)=1 then
+   	  return
+    end if
+
+
+	while nchild!=0 do
+      	puts(1,tinyxml_node_value(nchild)&"  ")
+      	puts(fn,tinyxml_node_value(nchild)&"  ")
+      	
+      	
+        att=tinyxml_frist_attribute(nchild)
+
+        if att then
+
+          while att!=0 do
+            puts(1,tinyxml_attribute_name(att)&"  ")
+            puts(fn,tinyxml_attribute_name(att)&"  ")
+            puts(1,tinyxml_attribute_value(att)&"\n")
+            puts(fn,tinyxml_attribute_value(att)&"\n")
+            att=tinyxml_attribute_next(att)
+          end while
+        end if
+
+        celement=tinyxml_node_toelement(nchild)
+        if celement!=0 then
+          ret=tinyxml_element_gettext(celement)
+          if length(ret) then
+          	puts(1,ret&"\n")
+	        puts(fn,ret&"\n")
+	      else
+	        puts(1,"\n")
+	        puts(fn,"\n")
+          end if
+
+          --?tinyxml_element_gettext(celement)
+        end if
+
+        nchild=tinyxml_node_IterateChildren(node,nchild)
+      end while
+end procedure

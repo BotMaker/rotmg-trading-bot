@@ -1,0 +1,6 @@
+equipment bleeding incorrect
+
+
+player xml
+the variable "type" is used twice in each player resulting in a malfunction 
+<UnlockLevel level="5" type="0x0310">Priest</UnlockLevel>

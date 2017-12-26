@@ -1,0 +1,55 @@
+include input_stream.ew
+
+sequence class_list,class_freelist
+class_list={}
+class_freelist={}
+constant x = 1
+constant y = 2
+constant typee = 3
+
+global function tile_new()
+  integer handle
+  if length(class_freelist)>0 then
+    handle= class_freelist[1]
+    class_freelist = class_freelist[2..length(class_freelist)]
+  else
+    class_list= append(class_list,{})
+    handle=length(class_list)
+  end if
+
+  class_list[handle]={0,0,0}
+
+  return handle
+end function
+
+global function tile_new_from_input(integer inputstream)
+  integer handle
+  if length(class_freelist)>0 then
+    handle= class_freelist[1]
+    class_freelist = class_freelist[2..length(class_freelist)]
+  else
+    class_list= append(class_list,{})
+    handle=length(class_list)
+  end if
+
+  class_list[handle]={input_stream_readshort(inputstream),input_stream_readshort(inputstream),input_stream_readshort(inputstream)}
+
+  return handle
+end function
+
+global function tile_get_type(integer handle)
+  return class_list[handle][3]
+end function
+
+global function tile_get(integer handle)
+  return class_list[handle]
+end function
+
+global function tile_classsize()
+  return length(class_list)
+end function
+
+global procedure tile_delete(integer handle)
+  class_list[handle]={}
+  class_freelist =append(class_freelist, handle)
+end procedure

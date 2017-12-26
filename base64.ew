@@ -1,0 +1,72 @@
+constant crypt32 = registerw32Library("Crypt32.dll")
+
+constant xCryptBinaryToString = registerw32Function(crypt32, "CryptBinaryToStringA", {C_POINTER,C_LONG,C_LONG,C_POINTER,C_POINTER}, C_INT)
+constant xCryptStringToBinary = registerw32Function(crypt32, "CryptStringToBinaryA", {C_POINTER,C_LONG,C_LONG,C_POINTER,C_POINTER,C_POINTER,C_POINTER}, C_INT)
+
+constant xCryptDecodeObjectEx = registerw32Function(crypt32, "CryptDecodeObjectEx", {C_LONG, C_POINTER,C_POINTER,C_LONG,C_LONG,C_POINTER,C_POINTER,C_POINTER}, C_INT)
+
+
+constant CRYPT_STRING_BASE64= #0001
+constant CRYPT_STRING_NOCRLF= #40000000
+constant CRYPT_STRING_NOCR =#80000000
+
+
+global function toBase64(sequence st)
+  atom st_add,dst_add,dword_add
+  integer pos,size
+  sequence res
+  st_add=allocate_string(st)
+  dst_add=allocate(4024)
+  dword_add=allocate(4)
+  
+  
+  poke(dword_add,int_to_bytes(4024)) 
+
+  if w32Func( xCryptBinaryToString, { st_add, length(st), or_all({CRYPT_STRING_BASE64,CRYPT_STRING_NOCRLF}), dst_add, dword_add} )=0 then
+  	puts(1,"error tobase64\n")
+  end if	
+
+  size=bytes_to_int( { peek(dword_add), peek(dword_add+1), peek(dword_add+2), peek(dword_add+3) } )
+  res=""
+  for i=0 to size-1 do
+   	 res&=peek(dst_add+i)
+  end for
+
+  free(st_add)
+  free(dst_add)
+  free(dword_add)
+  return res
+end function
+
+
+global function fromBase64(sequence st)
+  atom st_add,dst_add,dword_add
+  integer size
+  sequence res
+  st_add=allocate_string(st)
+  dst_add=allocate(4024)
+  dword_add=allocate(4)
+
+  poke(dword_add,int_to_bytes(4024))
+  
+  if w32Func( xCryptStringToBinary, { st_add, length(st), CRYPT_STRING_BASE64, dst_add, dword_add,0,0 } )<=0 then
+  	puts(1,"error frombase64\n")
+  end if	
+
+  size=bytes_to_int( { peek(dword_add), peek(dword_add+1), peek(dword_add+2), peek(dword_add+3) } )
+  --?size
+  res=""
+  for i=0 to size-1 do
+   	 res&=peek(dst_add+i)
+  end for
+
+  free(st_add)
+  free(dst_add)
+  free(dword_add)
+  return res
+end function
+
+
+
+
+puts(1,fromBase64("V11HXUcUAQEYChwJAVJdmsThdd8LlWoeAw=="))

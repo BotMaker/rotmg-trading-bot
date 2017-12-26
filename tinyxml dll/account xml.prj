@@ -1,0 +1,399 @@
+#Version 0.21.1
+#Counter: 1
+#WinCounter: 1
+#Window 1
+#TabInfo
+TabText: Layer 0
+TabRenamed: 0
+TabNumber: 0
+TabsetLayer: 0
+#Control: Window1
+X       : 0
+Y       : 0
+CX      : 400
+CY      : 300
+ControlLayer: 0
+Title   : Window1
+Class   : Window
+Enabled : 0
+Checked : 0
+Parent  : 
+PClass  : 
+SeqParentName  : 
+SeqParentClass  : 
+SeqChildName  : 
+Visible : 1
+BkColor : 0
+SystemBkColor : BTNFACE
+EnableC : 1
+Style   : 0
+TypStyle: 
+ExStyle : 0
+Local : 1
+LastEditorEvent : 1
+
+#Proc: (General)
+
+
+sequence chars_list,servers_list,maxclass_list,class_list
+chars_list={}
+servers_list={}
+maxclass_list={}
+class_list={}
+
+
+--<Server>
+--<Name>USWest</Name>
+--<DNS>54.241.208.233</DNS>
+--<Lat>37.34</Lat>
+--<Long>-121.89</Long>
+--<Usage>0.00</Usage>
+--</Server>
+
+
+function class_new()
+  return
+  {
+  {"id",0},
+  {"",0}
+  }	
+end function
+
+function maxclass_new()
+  return
+  {
+  {"classType",0},
+  {"maxLevel",0}
+  }	
+end function
+
+function server_new()
+  return
+  {
+  {"Name",0},
+  {"DNS",0},
+  {"Lat",0},
+  {"Long",0},
+  {"Usage",0}
+  }
+end function
+
+function char_new()
+  return
+{
+{"id",0},
+{"ObjectType",0},
+{"Level",0},
+{"Exp",0},
+{"CurrentFame",0},
+{"Equipment", {-1,-1,-1,-1, -1,-1,-1,-1, -1,-1,-1,-1} },
+{"MaxHitPoints", 0},
+{"HitPoints" , 0},
+{"MaxMagicPoints",0},
+{"MagicPoints",0},
+{"Attack",0},
+{"Defense",0},
+{"Speed",0},
+{"Dexterity",0},
+{"HpRegen",0},
+{"MpRegen",0},
+{"PCStats",0},
+{"HealthStackCount",0},
+{"MagicStackCount",0},
+{"Dead",0},
+{"casToken",0},
+{"Name",0},
+{"XpBoosted",0},
+{"XpTimer",0},
+{"LDTimer",0},
+{"LTTimer",0},
+{"HasBackpack",0}
+}
+end function
+
+
+
+include tinyxml.ew
+atom doc
+doc= tinyxml_document()
+
+
+atom root,att,child, nchild, celement
+sequence ret,name1,name2,attname
+integer index
+index=0
+
+integer fn
+fn=open("data.txt","w")
+
+procedure process_children(atom node)
+atom nchild,att,celement
+sequence name
+
+	nchild=tinyxml_node_firstchild(node)
+	if nchild=0 then
+   	  return
+    end if
+
+    if tinyxml_node_nochildren(nchild)=1 then
+   	  return
+    end if
+
+
+	while nchild!=0 do
+      	--puts(1,tinyxml_node_value(nchild)&"  ")
+      	--puts(fn,tinyxml_node_value(nchild)&"  ")
+      	
+        name=tinyxml_node_value(nchild)
+      	
+
+      	
+      	celement=tinyxml_node_toelement(nchild)
+      	
+        if celement!=0 then
+        	
+          att=tinyxml_frist_attribute(celement)
+          if att then
+
+            while att!=0 do
+              --puts(1,"\n")
+              --puts(fn,"\n")
+              --puts(1,tinyxml_attribute_name(att)&"  ")
+              --puts(fn,tinyxml_attribute_name(att)&"  ")
+              --puts(1,tinyxml_attribute_value(att)&"\n")
+              --puts(fn,tinyxml_attribute_value(att)&"\n")
+              att=tinyxml_attribute_next(att)
+            end while
+          end if
+
+        end if
+
+        if celement!=0 then
+          ret=tinyxml_element_gettext(celement)
+          if length(ret) then
+
+            if equal(name2,"Server") then
+              --puts(1,name&" testing\n")
+              --sleep(4)
+              for i=1 to length(servers_list[length(servers_list)]) do
+          	    if equal(servers_list[index][i][1],name) then
+          	      --puts(1,"crapballs\n")
+          	      servers_list[index][i][2]=ret
+          	      --sleep(1)
+                  exit	
+           	    end if
+              end for
+            end if
+
+          	--puts(1,ret&"\n")
+	        --puts(fn,ret&"\n")
+	      else
+	        --puts(1,"\n")
+	        --puts(fn,"\n")
+          end if
+
+          --?tinyxml_element_gettext(celement)
+        end if
+
+        if tinyxml_node_nochildren(nchild)=0 then
+   	      process_children(nchild)
+        end if
+        nchild=tinyxml_node_IterateChildren(node,nchild)
+      end while
+end procedure
+
+
+
+
+
+if tinyxml_load_file(doc,"account.xml")=1 then
+  root=tinyxml_frist_child_element(doc, "Chars")
+
+  if root then
+  	--puts(1,"root found\n")
+  	--puts(fn,"root found\n")
+  end if
+
+  att=tinyxml_frist_attribute(root)
+  if att then
+  	
+    --puts(1,tinyxml_attribute_name(att)&"  ")
+
+    --puts(1,tinyxml_attribute_value(att)&"\n")
+  end if
+
+  child=tinyxml_element_firstchild(root)
+
+
+
+  while child!=0 do
+  	--puts(1,tinyxml_node_value(child)&"\n")
+  	--puts(fn,tinyxml_node_value(child)&"\n")
+  	
+    name1=tinyxml_node_value(child)
+    if equal(name1,"Char") then
+      chars_list=append(chars_list, char_new() )
+      index=length(chars_list)
+		
+    end if
+  	
+    att=tinyxml_frist_attribute(child)
+
+    if att then
+
+      while att!=0 do
+        attname=tinyxml_attribute_name(att)
+        if equal(name1,"Char") then
+          --puts(fn,"char "&sprint(length(chars_list))&"\n")
+          --puts(fn,name2&"\n")
+          for i=1 to length(chars_list[length(chars_list)]) do
+          	if equal(chars_list[index][i][1],attname) then
+          	  --puts(fn,"crapballs\n")
+          	  chars_list[index][i][2]=tinyxml_attribute_value(att)
+              exit	
+           	end if
+          end for	
+        end if
+        --puts(1,tinyxml_attribute_name(att)&"  ")
+        --puts(fn,tinyxml_attribute_name(att)&"  ")
+        --puts(1,tinyxml_attribute_value(att)&"\n")
+        --puts(fn,tinyxml_attribute_value(att)&"\n")
+        att=tinyxml_attribute_next(att)
+      end while
+
+    end if
+
+
+    nchild=tinyxml_node_firstchild(child)
+    	
+      while nchild!=0 do
+      	--puts(1,tinyxml_node_value(nchild)&"  ")
+      	--puts(fn,tinyxml_node_value(nchild)&"  ")
+      	
+      	name2=tinyxml_node_value(nchild)
+      	
+        if equal(name2,"Server") then
+          servers_list=append(servers_list,server_new())
+          index=length(servers_list)
+        elsif equal(name2,"MaxClassLevel") then
+          maxclass_list=append(maxclass_list,maxclass_new())
+          index=length(maxclass_list)
+        elsif equal(name2,"ClassAvailability") then
+          class_list=append(class_list,class_new())
+          index=length(class_list)
+        end if
+      	
+        celement=tinyxml_node_toelement(nchild)
+
+        if celement!=0 then
+        	
+
+          att=tinyxml_frist_attribute(celement)
+
+          if att then
+
+            while att!=0 do
+              attname=tinyxml_attribute_name(att)
+              --puts(1,tinyxml_attribute_name(att)&"  ")
+
+              if equal(name2,"MaxClassLevel")  then
+                for i=1 to length(maxclass_list[length(maxclass_list)]) do
+          	      if equal(maxclass_list[index][i][1],attname) then
+          	        --puts(fn,"crapballs\n")
+          	        maxclass_list[index][i][2]=tinyxml_attribute_value(att)
+                    exit	
+           	      end if
+                end for	
+              elsif equal(name2,"ClassAvailability") then
+              	--puts(1,"testting "&tinyxml_attribute_name(att)&"\n")
+              	for i=1 to length(class_list[length(class_list)]) do
+          	      if equal(class_list[index][i][1],attname) then
+          	        --puts(fn,"crapballs\n")
+          	        class_list[index][i][2]=tinyxml_attribute_value(att)
+                    exit	
+           	      end if
+                end for	
+              	
+              end if
+              --puts(fn,tinyxml_attribute_name(att)&"  ")
+              --puts(1,tinyxml_attribute_value(att)&"\n")
+              --puts(fn,tinyxml_attribute_value(att)&"\n")
+
+              att=tinyxml_attribute_next(att)
+
+            end while
+          end if
+
+        end if
+
+
+        if celement!=0 then
+          ret=tinyxml_element_gettext(celement)
+          if length(ret) then
+            if equal(name1,"Char") then
+              --puts(fn,"char "&sprint(length(chars_list))&"\n")
+              --puts(fn,name2&"\n")
+              for i=1 to length(chars_list[length(chars_list)]) do
+          	    if equal(chars_list[index][i][1],name2) then
+          	      --puts(fn,"crapballs\n")
+          	      chars_list[index][i][2]=ret
+                  exit	
+           	    end if
+              end for	
+            end if
+            if equal(name2,"ClassAvailability") then
+              --puts(1,"thought  ")
+              --puts(1,ret)
+              class_list[index][2][2]=ret
+              --sleep(1)
+            end if
+          	--puts(1,ret&"\n")
+	        --puts(fn,ret&"\n")
+	      else
+	        --puts(1,"\n")
+	        --puts(fn,"\n")
+          end if
+
+        end if
+
+        process_children(nchild)
+
+        nchild=tinyxml_node_IterateChildren(child,nchild)
+      end while
+      child=tinyxml_node_IterateChildren(root,child)
+  end while
+
+end if
+
+
+for i=1 to length(chars_list) do
+  for j=1 to length(chars_list[i]) do
+  	puts(1,chars_list[i][j][1]&"  "&chars_list[i][j][2]&"\n")
+  	puts(fn,chars_list[i][j][1]&"  "&chars_list[i][j][2]&"\n")
+  end for	
+end for
+
+for i=1 to length(servers_list) do
+  for j=1 to length(servers_list[i]) do
+  	--puts(1,servers_list[i][j][1]&"  "&servers_list[i][j][2]&"\n")
+  	puts(fn,servers_list[i][j][1]&"  "&servers_list[i][j][2]&"\n")
+  end for	
+end for
+
+for i=1 to length(maxclass_list) do
+  for j=1 to length(maxclass_list[i]) do
+  	--puts(1,maxclass_list[i][j][1]&"  "&maxclass_list[i][j][2]&"\n")
+  	puts(fn,maxclass_list[i][j][1]&"  "&maxclass_list[i][j][2]&"\n")
+  end for	
+end for
+
+for i=1 to length(class_list) do
+  for j=1 to length(class_list[i]) do
+  	puts(1,class_list[i][j][1]&"  "&class_list[i][j][2]&"\n")
+  	puts(fn,class_list[i][j][1]&"  "&class_list[i][j][2]&"\n")
+  end for	
+end for
+
+close(fn)
+#EndProc
+

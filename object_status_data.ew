@@ -1,0 +1,69 @@
+include location.ew
+include input_stream.ew
+include stat_data.ew
+
+sequence class_list,class_freelist
+class_list={}
+class_freelist={}
+constant object_id = 1
+constant position = 2
+constant statdata_list = 3
+
+global function object_status_data_new()
+  integer handle
+  if length(class_freelist)>0 then
+    handle= class_freelist[1]
+    class_freelist = class_freelist[2..length(class_freelist)]
+  else
+    class_list= append(class_list,{})
+    handle=length(class_list)
+  end if
+
+  class_list[handle]={0,location_new(),{stat_data_new()}}
+
+  return handle
+end function
+
+global function object_status_data_new_from_input(integer inputstream)
+  integer handle
+  integer objectid,position,size
+  sequence statdata_list
+  statdata_list={}
+
+  if length(class_freelist)>0 then
+    handle= class_freelist[1]
+    class_freelist = class_freelist[2..length(class_freelist)]
+  else
+    class_list= append(class_list,{})
+    handle=length(class_list)
+  end if
+
+  objectid=input_stream_readint(inputstream)
+  position=location_new_from_input(inputstream)
+  size=input_stream_readshort(inputstream)
+
+  for i=0 to size-1 do
+    statdata_list&=stat_data_new_from_input(inputstream)
+  end for
+
+  class_list[handle]={objectid,position,statdata_list}
+
+  return handle
+end function
+
+global function object_status_data_get(integer handle)
+  return class_list[handle]
+end function
+
+global function object_status_data_classsize()
+  return length(class_list)
+end function
+
+global procedure object_status_data_delete(integer handle)
+  location_delete(class_list[handle][position])
+  for i=1 to length(class_list[handle][statdata_list]) do
+    stat_data_delete(class_list[handle][statdata_list][i])
+  end for
+  class_list[handle]={}
+  class_freelist =append(class_freelist, handle)
+end procedure

@@ -1,0 +1,93 @@
+-- a lexer would be needed for anything more complex 
+--key uid --public static const FAILURE:int
+
+include misc.e
+
+object line
+sequence buffer
+integer fn
+buffer={}
+
+
+fn=open("27_3_1_scripts.txt","r")
+
+integer pos,keyline
+pos=0
+keyline=0
+
+while 1 do
+  line=gets(fn)
+  if integer(line) then
+    exit
+  end if
+  buffer=append(buffer,line)
+  pos=match("public static const FAILURE:int",line)
+  if pos!=0 then
+    keyline=length(buffer)
+  end if
+end while
+close(fn)
+
+
+if keyline=0 then
+  puts(1,"unable to find key uid\n")
+  sleep(100)
+end if
+
+sequence packets
+packets={}
+
+fn=open("packet names.txt","r")
+while 1 do
+  line=gets(fn)
+  if integer(line) then
+    exit
+  end if
+  packets=append(packets,line[1..length(line)-1])
+ 
+end while
+close(fn)
+
+
+
+fn=open("packets.inf","w")
+
+line=keyline
+integer pos1,pos2,pos3,pline
+pline=1
+
+while 1 do
+  pos1=match("const",buffer[line])
+
+  if pos1!=0 then
+    pos2=match(":int",buffer[line])
+    if pos2!=0 then
+
+      --packet name
+      --puts(fn,buffer[line][pos1+6..pos2-1]&"\n")
+      --puts(fn,buffer[line][pos1+6..pos2-1])
+
+      puts(fn,packets[pline])
+
+      pos3=match(";",buffer[line])
+      if pos3!=0 then
+        puts(fn,buffer[line][pos2+4..pos3-1]&"\n")
+      else
+      end if
+    else
+      
+    end if
+  else
+    exit
+  end if
+  line+=1
+  pline+=1
+end while
+
+close(fn)
+
+
+--?length(buffer)
+--sleep(4)
+
+

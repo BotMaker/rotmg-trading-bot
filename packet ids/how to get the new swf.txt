@@ -1,0 +1,24 @@
+1370895231
+
+AGCLoader1370895231
+
+1370895231.swf
+
+AssembleeGameClient1370895231.swf
+
+http://www.realmofthemadgod.com/AssembleeGameClient1370895231.swf
+
+
+
+goto 
+http://www.realmofthemadgod.com/version.txt
+
+get the version number "1375118885" 
+
+change the url version number to the current version
+
+goto
+http://www.realmofthemadgod.com/AssembleeGameClient1375118885.swf
+
+you can then save the client.swf from within the browser, via menu file save 
+

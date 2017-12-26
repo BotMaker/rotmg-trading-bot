@@ -1,0 +1,76 @@
+
+include machine.e
+
+sequence class_list,class_freelist
+class_list={}
+class_freelist={}
+constant output_buffer = 1
+
+global function output_stream_new()
+  integer handle
+  if length(class_freelist)>0 then
+    handle= class_freelist[1]
+    class_freelist = class_freelist[2..length(class_freelist)]
+  else
+    class_list= append(class_list,{""})
+    handle=length(class_list)
+  end if
+
+  return handle
+end function
+
+global procedure output_stream_delete(integer handle)
+  class_list[handle]={}
+  class_freelist =append(class_freelist, handle)
+end procedure
+
+global function output_stream_peek(integer handle, integer pos)
+  return class_list[handle][output_buffer][pos]
+end function 
+
+global function output_stream_length(integer handle)
+  return length(class_list[handle][output_buffer])
+end function 
+
+global procedure output_stream_append(integer handle,sequence data)
+  class_list[handle][output_buffer]&=data
+end procedure
+
+global function output_stream_slice(integer handle, integer pos1, integer pos2)
+  return class_list[handle][output_buffer][pos1..pos2]
+end function 
+
+global procedure output_stream_set(integer handle,sequence data)
+  class_list[handle][output_buffer]=data
+end procedure
+
+global function output_stream_get(integer handle)
+  return class_list[handle][output_buffer]
+end function 
+
+procedure writeutf(integer handle, sequence v)
+   sequence s
+   s=int_to_bytes(length(v))
+   class_list[handle][output_buffer]&=s[2]&s[1]&v
+end procedure
+
+procedure writeint(integer handle ,atom v)
+sequence s
+   s=int_to_bytes(v)
+   class_list[handle][output_buffer]&=s[4]&s[3]&s[2]&s[1]
+end procedure
+
+procedure writebool(integer handle, integer b)
+   class_list[handle][output_buffer]&=b
+end procedure
+
+procedure writeshort(integer handle ,atom v)
+   sequence s
+   s=int_to_bytes(v)
+   class_list[handle][output_buffer]&=s[2]&s[1]
+end procedure
+
+procedure writebyte(integer handle ,integer v)
+   class_list[handle][output_buffer]&=v
+end procedure
+

@@ -1,0 +1,5822 @@
+Object
+type  0xc85
+id  Common Feline Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x100
+SlotType  26
+Tier  0
+Description  {equip.A_common_feline_pet_egg.}
+PetFamily  Feline
+Rarity  Common
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  50
+DisplayId  {equip.Common_Feline_Egg}
+Object
+type  0xc86
+id  Uncommon Feline Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x101
+SlotType  26
+Tier  1
+Description  {equip.An_uncommon_feline_pet_egg.}
+PetFamily  Feline
+Rarity  Uncommon
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  300
+Soulbound  
+DisplayId  {equip.Uncommon_Feline_Egg}
+Object
+type  0xc87
+id  Rare Feline Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x102
+SlotType  26
+Tier  2
+Description  {equip.A_rare_feline_pet_egg.}
+PetFamily  Feline
+Rarity  Rare
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  700
+DisplayId  {equip.Rare_Feline_Egg}
+Object
+type  0xc88
+id  Legendary Feline Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x103
+SlotType  26
+Tier  3
+Description  {equip.A_legendary_feline_pet_egg.}
+PetFamily  Feline
+Rarity  Legendary
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  3000
+DisplayId  {equip.Legendary_Feline_Egg}
+Object
+type  0xc89
+id  Common Canine Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x104
+SlotType  26
+Tier  0
+Description  {equip.A_common_canine_pet_egg.}
+PetFamily  Canine
+Rarity  Common
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  50
+DisplayId  {equip.Common_Canine_Egg}
+Object
+type  0xc8a
+id  Uncommon Canine Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x105
+SlotType  26
+Tier  1
+Description  {equip.An_uncommon_canine_pet_egg.}
+PetFamily  Canine
+Rarity  Uncommon
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  300
+Soulbound  
+DisplayId  {equip.Uncommon_Canine_Egg}
+Object
+type  0xc8b
+id  Rare Canine Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x106
+SlotType  26
+Tier  2
+Description  {equip.A_rare_canine_pet_egg.}
+PetFamily  Canine
+Rarity  Rare
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  700
+DisplayId  {equip.Rare_Canine_Egg}
+Object
+type  0xc8c
+id  Legendary Canine Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x107
+SlotType  26
+Tier  3
+Description  {equip.A_legendary_canine_pet_egg.}
+PetFamily  Canine
+Rarity  Legendary
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  3000
+DisplayId  {equip.Legendary_Canine_Egg}
+Object
+type  0xc8d
+id  Common Avian Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x108
+SlotType  26
+Tier  0
+Description  {equip.A_common_avian_pet_egg.}
+PetFamily  Avian
+Rarity  Common
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  50
+DisplayId  {equip.Common_Avian_Egg}
+Object
+type  0xc8e
+id  Uncommon Avian Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x109
+SlotType  26
+Tier  1
+Description  {equip.An_uncommon_avian_pet_egg.}
+PetFamily  Avian
+Rarity  Uncommon
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  300
+Soulbound  
+DisplayId  {equip.Uncommon_Avian_Egg}
+Object
+type  0xc8f
+id  Rare Avian Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x10a
+SlotType  26
+Tier  2
+Description  {equip.A_rare_avian_pet_egg.}
+PetFamily  Avian
+Rarity  Rare
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  700
+DisplayId  {equip.Rare_Avian_Egg}
+Object
+type  0xc90
+id  Legendary Avian Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x10b
+SlotType  26
+Tier  3
+Description  {equip.A_legendary_avian_pet_egg.}
+PetFamily  Avian
+Rarity  Legendary
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  3000
+DisplayId  {equip.Legendary_Avian_Egg}
+Object
+type  0xc91
+id  Common Exotic Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x10c
+SlotType  26
+Tier  0
+Description  {equip.A_common_exotic_pet_egg.}
+PetFamily  Exotic
+Rarity  Common
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  50
+DisplayId  {equip.Common_Exotic_Egg}
+Object
+type  0xc92
+id  Uncommon Exotic Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x10d
+SlotType  26
+Tier  1
+Description  {equip.An_uncommon_exotic_pet_egg.}
+PetFamily  Exotic
+Rarity  Uncommon
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  300
+Soulbound  
+DisplayId  {equip.Uncommon_Exotic_Egg}
+Object
+type  0xc93
+id  Rare Exotic Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x10e
+SlotType  26
+Tier  2
+Description  {equip.A_rare_exotic_pet_egg.}
+PetFamily  Exotic
+Rarity  Rare
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  700
+DisplayId  {equip.Rare_Exotic_Egg}
+Object
+type  0xc94
+id  Legendary Exotic Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x10f
+SlotType  26
+Tier  3
+Description  {equip.A_legendary_exotic_pet_egg.}
+PetFamily  Exotic
+Rarity  Legendary
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  3000
+DisplayId  {equip.Legendary_Exotic_Egg}
+Object
+type  0xc95
+id  Common Farm Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x110
+SlotType  26
+Tier  0
+Description  {equip.A_common_farm_pet_egg.}
+PetFamily  Farm
+Rarity  Common
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  50
+DisplayId  {equip.Common_Farm_Egg}
+Object
+type  0xc96
+id  Uncommon Farm Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x111
+SlotType  26
+Tier  1
+Description  {equip.An_uncommon_farm_pet_egg.}
+PetFamily  Farm
+Rarity  Uncommon
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  300
+Soulbound  
+DisplayId  {equip.Uncommon_Farm_Egg}
+Object
+type  0xc97
+id  Rare Farm Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x112
+SlotType  26
+Tier  2
+Description  {equip.A_rare_farm_pet_egg.}
+PetFamily  Farm
+Rarity  Rare
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  700
+DisplayId  {equip.Rare_Farm_Egg}
+Object
+type  0xc98
+id  Legendary Farm Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x113
+SlotType  26
+Tier  3
+Description  {equip.A_legendary_farm_pet_egg.}
+PetFamily  Farm
+Rarity  Legendary
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  3000
+DisplayId  {equip.Legendary_Farm_Egg}
+Object
+type  0xc99
+id  Common Woodland Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x114
+SlotType  26
+Tier  0
+Description  {equip.A_common_woodland_pet_egg.}
+PetFamily  Woodland
+Rarity  Common
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  50
+DisplayId  {equip.Common_Woodland_Egg}
+Object
+type  0xc9a
+id  Uncommon Woodland Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x115
+SlotType  26
+Tier  1
+Description  {equip.An_uncommon_woodland_pet_egg.}
+PetFamily  Woodland
+Rarity  Uncommon
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  300
+Soulbound  
+DisplayId  {equip.Uncommon_Woodland_Egg}
+Object
+type  0xc9b
+id  Rare Woodland Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x116
+SlotType  26
+Tier  2
+Description  {equip.A_rare_woodland_pet_egg.}
+PetFamily  Woodland
+Rarity  Rare
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  700
+DisplayId  {equip.Rare_Woodland_Egg}
+Object
+type  0xc9c
+id  Legendary Woodland Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x117
+SlotType  26
+Tier  3
+Description  {equip.A_legendary_woodland_pet_egg.}
+PetFamily  Woodland
+Rarity  Legendary
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  3000
+DisplayId  {equip.Legendary_Woodland_Egg}
+Object
+type  0xc9d
+id  Common Reptile Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x118
+SlotType  26
+Tier  0
+Description  {equip.A_common_reptile_pet_egg.}
+PetFamily  Reptile
+Rarity  Common
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  50
+DisplayId  {equip.Common_Reptile_Egg}
+Object
+type  0xc9e
+id  Uncommon Reptile Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x119
+SlotType  26
+Tier  1
+Description  {equip.An_uncommon_reptile_pet_egg.}
+PetFamily  Reptile
+Rarity  Uncommon
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  300
+Soulbound  
+DisplayId  {equip.Uncommon_Reptile_Egg}
+Object
+type  0xc9f
+id  Rare Reptile Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x11a
+SlotType  26
+Tier  2
+Description  {equip.A_rare_reptile_pet_egg.}
+PetFamily  Reptile
+Rarity  Rare
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  700
+DisplayId  {equip.Rare_Reptile_Egg}
+Object
+type  0xca0
+id  Legendary Reptile Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x11b
+SlotType  26
+Tier  3
+Description  {equip.A_legendary_reptile_pet_egg.}
+PetFamily  Reptile
+Rarity  Legendary
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  3000
+DisplayId  {equip.Legendary_Reptile_Egg}
+Object
+type  0xca1
+id  Common Insect Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x11c
+SlotType  26
+Tier  0
+Description  {equip.A_common_insect_pet_egg.}
+PetFamily  Insect
+Rarity  Common
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  50
+DisplayId  {equip.Common_Insect_Egg}
+Object
+type  0xca2
+id  Uncommon Insect Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x11d
+SlotType  26
+Tier  1
+Description  {equip.An_uncommon_insect_pet_egg.}
+PetFamily  Insect
+Rarity  Uncommon
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  300
+Soulbound  
+DisplayId  {equip.Uncommon_Insect_Egg}
+Object
+type  0xca3
+id  Rare Insect Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x11e
+SlotType  26
+Tier  2
+Description  {equip.A_rare_insect_pet_egg.}
+PetFamily  Insect
+Rarity  Rare
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  700
+DisplayId  {equip.Rare_Insect_Egg}
+Object
+type  0xca4
+id  Legendary Insect Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x11f
+SlotType  26
+Tier  3
+Description  {equip.A_legendary_insect_pet_egg.}
+PetFamily  Insect
+Rarity  Legendary
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  3000
+DisplayId  {equip.Legendary_Insect_Egg}
+Object
+type  0xca5
+id  Common Penguin Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x120
+SlotType  26
+Tier  0
+Description  {equip.A_common_penguin_pet_egg.}
+PetFamily  Penguin
+Rarity  Common
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  50
+DisplayId  {equip.Common_Penguin_Egg}
+Object
+type  0xca6
+id  Uncommon Penguin Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x121
+SlotType  26
+Tier  1
+Description  {equip.An_uncommon_penguin_pet_egg.}
+PetFamily  Penguin
+Rarity  Uncommon
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  300
+Soulbound  
+DisplayId  {equip.Uncommon_Penguin_Egg}
+Object
+type  0xca7
+id  Rare Penguin Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x122
+SlotType  26
+Tier  2
+Description  {equip.A_rare_penguin_pet_egg.}
+PetFamily  Penguin
+Rarity  Rare
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  700
+DisplayId  {equip.Rare_Penguin_Egg}
+Object
+type  0xca8
+id  Legendary Penguin Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x123
+SlotType  26
+Tier  3
+Description  {equip.A_legendary_penguin_pet_egg.}
+PetFamily  Penguin
+Rarity  Legendary
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  3000
+DisplayId  {equip.Legendary_Penguin_Egg}
+Object
+type  0xca9
+id  Common Aquatic Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x124
+SlotType  26
+Tier  0
+Description  {equip.A_common_aquatic_pet_egg.}
+PetFamily  Aquatic
+Rarity  Common
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  50
+DisplayId  {equip.Common_Aquatic_Egg}
+Object
+type  0xcaa
+id  Uncommon Aquatic Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x125
+SlotType  26
+Tier  1
+Description  {equip.An_uncommon_aquatic_pet_egg.}
+PetFamily  Aquatic
+Rarity  Uncommon
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  300
+Soulbound  
+DisplayId  {equip.Uncommon_Aquatic_Egg}
+Object
+type  0xcab
+id  Rare Aquatic Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x126
+SlotType  26
+Tier  2
+Description  {equip.A_rare_aquatic_pet_egg.}
+PetFamily  Aquatic
+Rarity  Rare
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  700
+DisplayId  {equip.Rare_Aquatic_Egg}
+Object
+type  0xcac
+id  Legendary Aquatic Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x127
+SlotType  26
+Tier  3
+Description  {equip.A_legendary_aquatic_pet_egg.}
+PetFamily  Aquatic
+Rarity  Legendary
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  3000
+DisplayId  {equip.Legendary_Aquatic_Egg}
+Object
+type  0xcad
+id  Common Spooky Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x128
+SlotType  26
+Tier  0
+Description  {equip.A_common_spooky_pet_egg.}
+PetFamily  Spooky
+Rarity  Common
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  50
+DisplayId  {equip.Common_Spooky_Egg}
+Object
+type  0xcae
+id  Uncommon Spooky Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x129
+SlotType  26
+Tier  1
+Description  {equip.An_uncommon_spooky_pet_egg.}
+PetFamily  Spooky
+Rarity  Uncommon
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  300
+Soulbound  
+DisplayId  {equip.Uncommon_Spooky_Egg}
+Object
+type  0xcaf
+id  Rare Spooky Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x12a
+SlotType  26
+Tier  2
+Description  {equip.A_rare_spooky_pet_egg.}
+PetFamily  Spooky
+Rarity  Rare
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  700
+DisplayId  {equip.Rare_Spooky_Egg}
+Object
+type  0xcb0
+id  Legendary Spooky Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x12b
+SlotType  26
+Tier  3
+Description  {equip.A_legendary_spooky_pet_egg.}
+PetFamily  Spooky
+Rarity  Legendary
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  3000
+DisplayId  {equip.Legendary_Spooky_Egg}
+Object
+type  0xcb1
+id  Common Humanoid Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x12c
+SlotType  26
+Tier  0
+Description  {equip.A_common_humanoid_pet_egg.}
+PetFamily  Humanoid
+Rarity  Common
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  50
+DisplayId  {equip.Common_Humanoid_Egg}
+Object
+type  0xcb2
+id  Uncommon Humanoid Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x12d
+SlotType  26
+Tier  1
+Description  {equip.An_uncommon_humanoid_pet_egg.}
+PetFamily  Humanoid
+Rarity  Uncommon
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  300
+Soulbound  
+DisplayId  {equip.Uncommon_Humanoid_Egg}
+Object
+type  0xcb3
+id  Rare Humanoid Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x12e
+SlotType  26
+Tier  2
+Description  {equip.A_rare_humanoid_pet_egg.}
+PetFamily  Humanoid
+Rarity  Rare
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  700
+DisplayId  {equip.Rare_Humanoid_Egg}
+Object
+type  0xcb4
+id  Legendary Humanoid Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x12f
+SlotType  26
+Tier  3
+Description  {equip.A_legendary_humanoid_pet_egg.}
+PetFamily  Humanoid
+Rarity  Legendary
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  3000
+DisplayId  {equip.Legendary_Humanoid_Egg}
+Object
+type  0xcb5
+id  Common ???? Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x130
+SlotType  26
+Tier  0
+Description  {equip.A_common__?_?_?_?__pet_egg.}
+PetFamily  ? ? ? ?
+Rarity  Common
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  50
+DisplayId  {equip.Common_????_Egg}
+Object
+type  0xcb6
+id  Uncommon ???? Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x131
+SlotType  26
+Tier  1
+Description  {equip.An_uncommon__?_?_?_?__pet_egg.}
+PetFamily  ? ? ? ?
+Rarity  Uncommon
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  300
+Soulbound  
+DisplayId  {equip.Uncommon_????_Egg}
+Object
+type  0xcb7
+id  Rare ???? Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x132
+SlotType  26
+Tier  2
+Description  {equip.A_rare__?_?_?_?__pet_egg.}
+PetFamily  ? ? ? ?
+Rarity  Rare
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  700
+DisplayId  {equip.Rare_????_Egg}
+Object
+type  0xcb8
+id  Legendary ???? Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x133
+SlotType  26
+Tier  3
+Description  {equip.A_legendary__?_?_?_?__pet_egg.}
+PetFamily  ? ? ? ?
+Rarity  Legendary
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  3000
+DisplayId  {equip.Legendary_????_Egg}
+Object
+type  0xcb9
+id  Common Automaton Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x134
+SlotType  26
+Tier  0
+Description  {equip.A_common_automaton_pet_egg.}
+PetFamily  Automaton
+Rarity  Common
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  50
+DisplayId  {equip.Common_Automaton_Egg}
+Object
+type  0xcba
+id  Uncommon Automaton Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x135
+SlotType  26
+Tier  1
+Description  {equip.An_uncommon_automaton_pet_egg.}
+PetFamily  Automaton
+Rarity  Uncommon
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  300
+Soulbound  
+DisplayId  {equip.Uncommon_Automaton_Egg}
+Object
+type  0xcbb
+id  Rare Automaton Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x136
+SlotType  26
+Tier  2
+Description  {equip.A_rare_automaton_pet_egg.}
+PetFamily  Automaton
+Rarity  Rare
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  700
+DisplayId  {equip.Rare_Automaton_Egg}
+Object
+type  0xcbc
+id  Legendary Automaton Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x137
+SlotType  26
+Tier  3
+Description  {equip.A_legendary_automaton_pet_egg.}
+PetFamily  Automaton
+Rarity  Legendary
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  3000
+DisplayId  {equip.Legendary_Automaton_Egg}
+Object
+type  0xcbd
+id  Common Mystery Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xfc
+SlotType  26
+Tier  0
+Description  {equip.A_common_pet_egg_of_an_unknown_pet_family.}
+Rarity  Common
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  50
+DisplayId  {equip.Common_Mystery_Egg}
+Object
+type  0xcbe
+id  Uncommon Mystery Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xfd
+SlotType  26
+Tier  1
+Description  {equip.An_uncommon_pet_egg_of_an_unknown_pet_family.}
+Rarity  Uncommon
+Activate  CreatePet
+Consumable  
+BagType  3
+feedPower  300
+Soulbound  
+DisplayId  {equip.Uncommon_Mystery_Egg}
+Object
+type  0xcbf
+id  Rare Mystery Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xfe
+SlotType  26
+Tier  2
+Description  {equip.A_rare_pet_egg_of_an_unknown_pet_family.}
+Rarity  Rare
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  700
+DisplayId  {equip.Rare_Mystery_Egg}
+Object
+type  0xcc0
+id  Legendary Mystery Egg
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xff
+SlotType  26
+Tier  3
+Description  {equip.A_legendary_pet_egg_of_an_unknown_pet_family..}
+Rarity  Legendary
+Activate  CreatePet
+Consumable  
+Soulbound  
+BagType  3
+feedPower  3000
+DisplayId  {equip.Legendary_Mystery_Egg}
+Object
+type  0xa00
+id  Short Sword
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x30
+SlotType  1
+Tier  0
+Description  {equip.A_steel_short_sword.}
+RateOfFire  1
+Sound  weapon/blunt_sword
+Projectile  
+ObjectId  Blade
+Speed  100
+MinDamage  45
+MaxDamage  90
+LifetimeMS  350
+BagType  0
+OldSound  bladeSwing
+feedPower  5
+DisplayId  {equip.Short_Sword}
+Object
+type  0xa6c
+id  Broad Sword
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x31
+SlotType  1
+Tier  1
+Description  {equip.A_broad-bladed_steel_sword.}
+RateOfFire  1
+Sound  weapon/long_sword
+Projectile  
+ObjectId  Blade
+Speed  100
+MinDamage  60
+MaxDamage  105
+LifetimeMS  350
+BagType  0
+OldSound  bladeSwing
+feedPower  7
+DisplayId  {equip.Broad_Sword}
+Object
+type  0xa6d
+id  Saber
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x32
+SlotType  1
+Tier  2
+Description  {equip.A_single-edged_light_sword.}
+RateOfFire  1
+Sound  weapon/long_sword
+Projectile  
+ObjectId  Blade
+Speed  100
+MinDamage  75
+MaxDamage  105
+LifetimeMS  350
+BagType  0
+OldSound  bladeSwing
+feedPower  10
+DisplayId  {equip.Saber}
+Object
+type  0xa01
+id  Long Sword
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x33
+SlotType  1
+Tier  3
+Description  {equip.A_well-made_sword_with_a_double_edged_blade.}
+RateOfFire  1
+Sound  weapon/long_sword
+Projectile  
+ObjectId  Blade
+Speed  100
+MinDamage  75
+MaxDamage  120
+LifetimeMS  350
+BagType  0
+OldSound  bladeSwing
+feedPower  15
+DisplayId  {equip.Long_Sword}
+Object
+type  0xa6e
+id  Falchion
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x34
+SlotType  1
+Tier  4
+Description  {equip.A_single-edged_broad-bladed_sword.}
+RateOfFire  1
+Sound  weapon/long_sword
+Projectile  
+ObjectId  Blade
+Speed  100
+MinDamage  75
+MaxDamage  135
+LifetimeMS  350
+BagType  0
+OldSound  bladeSwing
+feedPower  22
+DisplayId  {equip.Falchion}
+Object
+type  0xa3b
+id  Fire Sword
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x35
+SlotType  1
+Tier  5
+Description  {equip.A_fiery_blade_capable_of_burning_flesh_and_bone.}
+RateOfFire  1
+Sound  weapon/fire_sword
+Projectile  
+ObjectId  Fire Bolt
+Speed  100
+MinDamage  90
+MaxDamage  135
+LifetimeMS  350
+BagType  0
+OldSound  bladeSwing
+feedPower  32
+DisplayId  {equip.Fire_Sword}
+Object
+type  0xa3c
+id  Glass Sword
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x36
+SlotType  1
+Tier  6
+Description  {equip.A_sword_formed_from_a_single_shard_of_unbreakable_glass.}
+RateOfFire  1
+Sound  weapon/glass_sword
+Projectile  
+ObjectId  White Bolt
+Speed  100
+MinDamage  30
+MaxDamage  210
+LifetimeMS  350
+BagType  1
+OldSound  bladeSwing
+feedPower  47
+DisplayId  {equip.Glass_Sword}
+Object
+type  0xa02
+id  Golden Sword
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x37
+SlotType  1
+Tier  7
+Description  {equip.A_sharp_sword_plated_with_gold,_clearly_intended_for_the_us}
+RateOfFire  1
+Sound  weapon/golden_sword
+Projectile  
+ObjectId  Blade
+Speed  100
+MinDamage  150
+MaxDamage  180
+LifetimeMS  350
+BagType  1
+OldSound  bladeSwing
+feedPower  70
+DisplayId  {equip.Golden_Sword}
+Object
+type  0xa82
+id  Ravenheart Sword
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x38
+SlotType  1
+Tier  8
+Description  {equip.A_powerful_sword_infused_with_the_spirit_of_dark_rituals.}
+RateOfFire  1
+Sound  weapon/mithril_sword
+Projectile  
+ObjectId  Darkness Bolt
+Speed  100
+MinDamage  180
+MaxDamage  255
+LifetimeMS  350
+BagType  1
+FameBonus  1
+OldSound  bladeSwing
+feedPower  100
+DisplayId  {equip.Ravenheart_Sword}
+Object
+type  0xa83
+id  Dragonsoul Sword
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x39
+SlotType  1
+Tier  9
+Description  {equip.A_sword_forged_in_a_great_volcano_and_consecrated_with_drag}
+RateOfFire  1
+Sound  weapon/mithril_sword
+Projectile  
+ObjectId  White Bolt
+Speed  100
+MinDamage  195
+MaxDamage  255
+LifetimeMS  350
+BagType  1
+FameBonus  1
+OldSound  bladeSwing
+feedPower  145
+DisplayId  {equip.Dragonsoul_Sword}
+Object
+type  0xa84
+id  Archon Sword
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x3a
+SlotType  1
+Tier  10
+Description  {equip.A_sword_pulsing_with_the_powerful_magic_of_ancient_beings.}
+RateOfFire  1
+Sound  weapon/mithril_sword
+Projectile  
+ObjectId  Fire Bolt
+Speed  100
+MinDamage  210
+MaxDamage  255
+LifetimeMS  350
+BagType  2
+FameBonus  2
+OldSound  bladeSwing
+feedPower  212
+DisplayId  {equip.Archon_Sword}
+Object
+type  0xa47
+id  Skysplitter Sword
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x3b
+SlotType  1
+Tier  11
+Description  {equip.An_unfathomably_powerful_sword_wielded_by_titanic_air_eleme}
+RateOfFire  1
+Sound  weapon/mithril_sword
+Projectile  
+ObjectId  Blue Bolt
+Speed  100
+MinDamage  210
+MaxDamage  270
+LifetimeMS  350
+BagType  2
+FameBonus  3
+OldSound  bladeSwing
+feedPower  310
+DisplayId  {equip.Skysplitter_Sword}
+Object
+type  0xb0b
+id  Sword of Acclaim
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x3c
+SlotType  1
+Tier  12
+Description  {equip.A_great_sword_of_recognition,_forged_by_the_gods_for_the_ch}
+RateOfFire  1
+Sound  weapon/mithril_sword
+Projectile  
+ObjectId  Purple Bolt
+Speed  100
+MinDamage  220
+MaxDamage  275
+LifetimeMS  350
+BagType  2
+FameBonus  4
+OldSound  bladeSwing
+feedPower  450
+DisplayId  {equip.Sword_of_Acclaim}
+Object
+type  0x9c8
+id  Sword of Splendor
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x3d
+SlotType  1
+Description  {equip.An_exalted_weapon_of_the_august_kings_of_old,_hallowed_with}
+RateOfFire  1
+Sound  weapon/mithril_sword
+Projectile  
+ObjectId  Green Bolt
+Speed  100
+MinDamage  225
+MaxDamage  285
+LifetimeMS  350
+BagType  2
+FameBonus  4
+OldSound  bladeSwing
+feedPower  0
+Soulbound  
+DisplayId  {equip.Sword_of_Splendor}
+Object
+type  0x9c9
+id  Sword of Majesty
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x3e
+SlotType  1
+Description  {equip.A_gleaming_obsidian_sword_of_imperial_power,_fashioned_by_e}
+RateOfFire  1
+Sound  weapon/mithril_sword
+Projectile  
+ObjectId  Darkness Bolt
+Speed  100
+MinDamage  235
+MaxDamage  290
+LifetimeMS  350
+BagType  2
+FameBonus  5
+OldSound  bladeSwing
+feedPower  0
+Soulbound  
+DisplayId  {equip.Sword_of_Majesty}
+Object
+type  0xa03
+id  Crystal Sword
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x68
+SlotType  1
+Description  {equip.A_lightweight_blade_that_seems_to_dance_in_your_hands.}
+RateOfFire  1
+Sound  weapon/glass_sword
+Projectile  
+ObjectId  Aqua Slash
+Speed  100
+MinDamage  180
+MaxDamage  210
+LifetimeMS  450
+BagType  4
+FameBonus  4
+OldSound  bladeSwing
+feedPower  400
+Soulbound  
+DisplayId  {equip.Crystal_Sword}
+Object
+type  0xc01
+id  Demon Blade
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x69
+SlotType  1
+Description  {equip.A_swift_and_hungry_blade_that_is_never_satisfied_with_just_}
+RateOfFire  1
+Sound  weapon/glass_sword
+Projectile  
+ObjectId  Fire Bolt
+Speed  130
+MinDamage  150
+MaxDamage  175
+LifetimeMS  260
+BagType  4
+FameBonus  6
+NumProjectiles  2
+ArcGap  40
+OldSound  bladeSwing
+feedPower  800
+Soulbound  
+DisplayId  {equip.Demon_Blade}
+Object
+type  0xc05
+id  Ancient Stone Sword
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x6d
+SlotType  1
+Description  {equip.A_slow_but_powerful_sword_that_is_a_relic_of_a_long_forgott}
+RateOfFire  0.6
+Sound  weapon/glass_sword
+Projectile  
+ObjectId  Stone Slash
+Speed  100
+MinDamage  340
+MaxDamage  390
+LifetimeMS  400
+BagType  4
+FameBonus  4
+OldSound  bladeSwing
+feedPower  900
+Soulbound  
+DisplayId  {equip.Ancient_Stone_Sword}
+Object
+type  0xa04
+id  Fire Wand
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x40
+SlotType  8
+Tier  0
+Description  {equip.A_wand_that_casts_a_simple_fire_spell.}
+RateOfFire  1
+Sound  weapon/fire_wand
+Projectile  
+ObjectId  Red Fire
+Speed  130
+MinDamage  20
+MaxDamage  40
+LifetimeMS  770
+BagType  0
+OldSound  magicShoot
+feedPower  5
+DisplayId  {equip.Fire_Wand}
+Object
+type  0xa6f
+id  Force Wand
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x41
+SlotType  8
+Tier  1
+Description  {equip.A_wand_that_emits_bolts_of_pure_force.}
+RateOfFire  1
+Sound  weapon/missile_wand
+Projectile  
+ObjectId  Blue Magic
+Speed  130
+MinDamage  30
+MaxDamage  50
+LifetimeMS  770
+BagType  0
+OldSound  magicShoot
+feedPower  7
+DisplayId  {equip.Force_Wand}
+Object
+type  0xa70
+id  Power Wand
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x42
+SlotType  8
+Tier  2
+Description  {equip.A_wand_that_fires_power_bolts.}
+RateOfFire  1
+Sound  weapon/missile_wand
+Projectile  
+ObjectId  Blue Magic
+Speed  130
+MinDamage  35
+MaxDamage  55
+LifetimeMS  770
+BagType  0
+OldSound  magicShoot
+feedPower  10
+DisplayId  {equip.Power_Wand}
+Object
+type  0xa05
+id  Missile Wand
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x43
+SlotType  8
+Tier  3
+Description  {equip.A_wand_that_casts_a_strong_missile.}
+RateOfFire  1
+Sound  weapon/missile_wand
+Projectile  
+ObjectId  Blue Magic
+Speed  130
+MinDamage  40
+MaxDamage  60
+LifetimeMS  770
+BagType  0
+OldSound  magicShoot
+feedPower  15
+DisplayId  {equip.Missile_Wand}
+Object
+type  0xa71
+id  Eldritch Wand
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x44
+SlotType  8
+Tier  4
+Description  {equip.A_wand_that_shoots_dark_eldritch_energy.}
+RateOfFire  1
+Sound  weapon/missile_wand
+Projectile  
+ObjectId  Blue Magic
+Speed  130
+MinDamage  50
+MaxDamage  70
+LifetimeMS  770
+BagType  0
+OldSound  magicShoot
+feedPower  22
+DisplayId  {equip.Eldritch_Wand}
+Object
+type  0xa06
+id  Hell's Fire Wand
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x45
+SlotType  8
+Tier  5
+Description  {equip.A_wand_that_casts_a_strong_fire_spell.}
+RateOfFire  1
+Sound  weapon/hells_fire_wand
+Projectile  
+ObjectId  Purple Magic
+Speed  130
+MinDamage  60
+MaxDamage  80
+LifetimeMS  770
+BagType  0
+OldSound  magicShoot
+feedPower  32
+DisplayId  {equip.HellAPOSs_Fire_Wand}
+Object
+type  0xa3d
+id  Wand of Dark Magic
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x46
+SlotType  8
+Tier  6
+Description  {equip.A_wand_that_casts_a_bolt_of_pure_magic_force.}
+RateOfFire  1
+Sound  weapon/wand_of_dark_magic
+Projectile  
+ObjectId  Pink Bolt
+Speed  130
+MinDamage  70
+MaxDamage  90
+LifetimeMS  770
+BagType  1
+OldSound  magicShoot
+feedPower  47
+DisplayId  {equip.Wand_of_Dark_Magic}
+Object
+type  0xae0
+id  Wand of Arcane Flame
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x47
+SlotType  8
+Tier  7
+Description  {equip.A_deadly_wand_that_channels_magefire_from_the_nether_planes}
+RateOfFire  1
+Sound  weapon/wand_of_dark_magic
+Projectile  
+ObjectId  Red Fire
+Speed  130
+MinDamage  80
+MaxDamage  100
+LifetimeMS  770
+BagType  1
+OldSound  magicShoot
+feedPower  70
+DisplayId  {equip.Wand_of_Arcane_Flame}
+Object
+type  0xa4b
+id  Sprite Wand
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x61
+SlotType  8
+Description  {equip.A_wand_created_from_the_wood_of_Sprite_trees.}
+RateOfFire  1
+Sound  weapon/sprite_wand
+Projectile  
+ObjectId  Fire Bolt
+Speed  130
+MinDamage  50
+MaxDamage  150
+LifetimeMS  770
+BagType  1
+OldSound  magicShoot
+feedPower  200
+Soulbound  
+DisplayId  {equip.Sprite_Wand}
+Object
+type  0xa07
+id  Wand of Death
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x48
+SlotType  8
+Tier  8
+Description  {equip.A_fearsome_wand_that_fires_bolts_of_penetrating_death_magic}
+RateOfFire  1
+Sound  weapon/wand_of_death
+Projectile  
+ObjectId  Green Magic
+Speed  130
+MinDamage  80
+MaxDamage  120
+LifetimeMS  770
+BagType  1
+FameBonus  1
+OldSound  magicShoot
+feedPower  100
+DisplayId  {equip.Wand_of_Death}
+Object
+type  0xa85
+id  Wand of Deep Sorcery
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x49
+SlotType  8
+Tier  9
+Description  {equip.A_mysterious_wand_of_otherworldly_origin,_imbued_with_the_p}
+RateOfFire  1
+Sound  weapon/wand_of_death
+Projectile  
+ObjectId  Purple Magic
+Speed  130
+MinDamage  85
+MaxDamage  125
+LifetimeMS  770
+BagType  1
+FameBonus  1
+OldSound  magicShoot
+feedPower  145
+DisplayId  {equip.Wand_of_Deep_Sorcery}
+Object
+type  0xa86
+id  Wand of Shadow
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x4a
+SlotType  8
+Tier  10
+Description  {equip.A_wand_of_demonic_enigmas,_cloaked_in_darkness_and_cracklin}
+RateOfFire  1
+Sound  weapon/wand_of_death
+Projectile  
+ObjectId  Red Fire
+Speed  130
+MinDamage  85
+MaxDamage  130
+LifetimeMS  770
+BagType  2
+FameBonus  2
+OldSound  magicShoot
+feedPower  212
+DisplayId  {equip.Wand_of_Shadow}
+Object
+type  0xa87
+id  Wand of Ancient Warning
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x4b
+SlotType  8
+Tier  11
+Description  {equip.A_centuries-old_wand_of_great_power,_heralding_long-destine}
+RateOfFire  1
+Sound  weapon/wand_of_death
+Projectile  
+ObjectId  Green Magic
+Speed  130
+MinDamage  90
+MaxDamage  130
+LifetimeMS  770
+BagType  2
+FameBonus  3
+OldSound  magicShoot
+feedPower  310
+DisplayId  {equip.Wand_of_Ancient_Warning}
+Object
+type  0xaf6
+id  Wand of Recompense
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x4c
+SlotType  8
+Tier  12
+Description  {equip.A_great_golden_wand_of_the_heavens,_created_by_angels_to_wr}
+RateOfFire  1
+Sound  weapon/wand_of_death
+Projectile  
+ObjectId  Blue Magic
+Speed  130
+MinDamage  90
+MaxDamage  135
+LifetimeMS  770
+BagType  2
+FameBonus  4
+OldSound  magicShoot
+feedPower  450
+DisplayId  {equip.Wand_of_Recompense}
+Object
+type  0x9ca
+id  Wand of Evocation
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x4d
+SlotType  8
+Description  {equip.A_shining_gold_wand_of_force,_built_by_a_diabolic_archmagus}
+RateOfFire  1
+Sound  weapon/wand_of_death
+Projectile  
+ObjectId  Purple Magic
+Speed  130
+MinDamage  95
+MaxDamage  135
+LifetimeMS  770
+BagType  2
+FameBonus  4
+OldSound  magicShoot
+feedPower  0
+Soulbound  
+DisplayId  {equip.Wand_of_Evocation}
+Object
+type  0x9c0
+id  Wand of Retribution
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x4e
+SlotType  8
+Description  {equip.A_golden_wand_of_breathtaking_power,_created_by_elemental_f}
+RateOfFire  1
+Sound  weapon/wand_of_death
+Projectile  
+ObjectId  Orange Magic
+Speed  130
+MinDamage  95
+MaxDamage  140
+LifetimeMS  770
+BagType  2
+FameBonus  5
+OldSound  magicShoot
+feedPower  0
+Soulbound  
+DisplayId  {equip.Wand_of_Retribution}
+Object
+type  0xb3f
+id  Crystal Wand
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x63
+SlotType  8
+Description  {equip.A_sound_almost_like_a_wind_chime_emanates_softly_from_this_}
+RateOfFire  1
+Sound  weapon/wand_of_death
+Projectile  
+ObjectId  Aqua Missile
+Speed  130
+MinDamage  85
+MaxDamage  125
+LifetimeMS  650
+MultiHit  
+BagType  4
+FameBonus  4
+OldSound  magicShoot
+feedPower  500
+Soulbound  
+DisplayId  {equip.Crystal_Wand}
+Object
+type  0xc04
+id  Wand of the Bulwark
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x6c
+SlotType  8
+Description  {equip.This_strange_weapon_was_used_by_ancient_battle_mages_to_det}
+RateOfFire  0.33
+Sound  weapon/wand_of_death
+Projectile  
+ObjectId  Rimmed Mystic Shot
+Speed  6
+MinDamage  300
+MaxDamage  400
+LifetimeMS  11000
+Parametric  
+PassesCover  
+BagType  4
+FameBonus  6
+OldSound  magicShoot
+feedPower  650
+Soulbound  
+DisplayId  {equip.Wand_of_the_Bulwark}
+Object
+type  0xa08
+id  Wooden Shield
+Class  Equipment
+Item  
+Texture  
+File  lofiObj6
+Index  0x70
+SlotType  5
+Tier  0
+Description  {equip.A_shield_made_of_sturdy_wood.}
+Sound  spell/fire_spray
+Projectile  
+ObjectId  Silver Shield
+Speed  160
+MinDamage  55
+MaxDamage  90
+LifetimeMS  200
+Size  140
+ConditionEffect  duration  3
+Stunned
+MultiHit  
+PassesCover  
+ParticleTrail  
+ActivateOnEquip  stat  21
+amount  2
+IncrementStat
+ConditionEffect  duration  3
+Stunned
+Usable  
+BagType  0
+MpCost  80
+Activate  Shoot
+NumProjectiles  1
+feedPower  5
+DisplayId  {equip.Wooden_Shield}
+Object
+type  0xa09
+id  Iron Shield
+Class  Equipment
+Item  
+Texture  
+File  lofiObj6
+Index  0x71
+SlotType  5
+Tier  1
+Description  {equip.A_shield_made_of_well_forged_iron.}
+Sound  spell/fire_spray
+Projectile  
+ObjectId  Silver Shield
+Speed  160
+MinDamage  100
+MaxDamage  140
+LifetimeMS  200
+Size  140
+ConditionEffect  duration  3
+Stunned
+MultiHit  
+PassesCover  
+ParticleTrail  
+ActivateOnEquip  stat  21
+amount  4
+IncrementStat
+ConditionEffect  duration  3
+Stunned
+Usable  
+BagType  0
+MpCost  85
+Activate  Shoot
+NumProjectiles  2
+feedPower  10
+DisplayId  {equip.Iron_Shield}
+Object
+type  0xa0a
+id  Steel Shield
+Class  Equipment
+Item  
+Texture  
+File  lofiObj6
+Index  0x72
+SlotType  5
+Tier  2
+Description  {equip.A_shield_made_of_high_quality_steel.}
+Sound  spell/fire_spray
+Projectile  
+ObjectId  Silver Shield
+Speed  160
+MinDamage  150
+MaxDamage  190
+LifetimeMS  200
+Size  140
+ConditionEffect  duration  3
+Stunned
+MultiHit  
+PassesCover  
+ParticleTrail  
+ActivateOnEquip  stat  21
+amount  6
+IncrementStat
+ConditionEffect  duration  3
+Stunned
+Usable  
+BagType  0
+MpCost  90
+Activate  Shoot
+NumProjectiles  3
+feedPower  20
+DisplayId  {equip.Steel_Shield}
+Object
+type  0xacf
+id  Reinforced Shield
+Class  Equipment
+Item  
+Texture  
+File  lofiObj6
+Index  0x73
+SlotType  5
+Tier  3
+Description  {equip.A_steel_shield_supported_by_iron_ribbing.}
+Sound  spell/fire_spray
+Projectile  
+ObjectId  Silver Shield
+Speed  160
+MinDamage  190
+MaxDamage  240
+LifetimeMS  200
+Size  140
+ConditionEffect  duration  3
+Stunned
+MultiHit  
+PassesCover  
+ParticleTrail  
+ActivateOnEquip  stat  21
+amount  7
+IncrementStat
+ConditionEffect  duration  3
+Stunned
+Usable  
+BagType  1
+FameBonus  1
+MpCost  95
+Activate  Shoot
+NumProjectiles  3
+feedPower  45
+DisplayId  {equip.Reinforced_Shield}
+Object
+type  0xa0b
+id  Golden Shield
+Class  Equipment
+Item  
+Texture  
+File  lofiObj6
+Index  0x74
+SlotType  5
+Tier  4
+Description  {equip.An_ornate_but_strong_shield_plated_with_gold.}
+Sound  spell/fire_spray
+Projectile  
+ObjectId  Silver Shield
+Speed  160
+MinDamage  230
+MaxDamage  280
+LifetimeMS  200
+Size  140
+ConditionEffect  duration  3
+Stunned
+MultiHit  
+PassesCover  
+ParticleTrail  
+ActivateOnEquip  stat  21
+amount  8
+IncrementStat
+ConditionEffect  duration  3
+Stunned
+Usable  
+BagType  1
+FameBonus  2
+MpCost  100
+Activate  Shoot
+NumProjectiles  4
+feedPower  90
+DisplayId  {equip.Golden_Shield}
+Object
+type  0xa0c
+id  Mithril Shield
+Class  Equipment
+Item  
+Texture  
+File  lofiObj6
+Index  0x75
+SlotType  5
+Tier  5
+Description  {equip.A_very_strong_shield_made_from_the_strongest_and_most_desir}
+Sound  spell/fire_spray
+Projectile  
+ObjectId  Silver Shield
+Speed  160
+MinDamage  270
+MaxDamage  330
+LifetimeMS  200
+Size  140
+ConditionEffect  duration  3
+Stunned
+MultiHit  
+PassesCover  
+ParticleTrail  
+ActivateOnEquip  stat  21
+amount  12
+IncrementStat
+ConditionEffect  duration  3
+Stunned
+Usable  
+BagType  2
+FameBonus  3
+MpCost  100
+Activate  Shoot
+NumProjectiles  5
+feedPower  185
+DisplayId  {equip.Mithril_Shield}
+Object
+type  0xb22
+id  Colossus Shield
+Class  Equipment
+Item  
+Texture  
+File  lofiObj6
+Index  0x76
+SlotType  5
+Tier  6
+Description  {equip.A_superior_shield_forged_in_deep_armories_for_the_construct}
+Sound  spell/fire_spray
+Projectile  
+ObjectId  Silver Shield
+Speed  160
+MinDamage  300
+MaxDamage  360
+LifetimeMS  200
+Size  140
+ConditionEffect  duration  3
+Stunned
+MultiHit  
+PassesCover  
+ParticleTrail  
+ActivateOnEquip  stat  21
+amount  12
+IncrementStat
+ActivateOnEquip  stat  26
+amount  2
+IncrementStat
+ActivateOnEquip  stat  27
+amount  2
+IncrementStat
+ConditionEffect  duration  3
+Stunned
+Usable  
+BagType  2
+FameBonus  4
+MpCost  100
+Activate  Shoot
+NumProjectiles  5
+feedPower  380
+DisplayId  {equip.Colossus_Shield}
+Object
+type  0xa40
+id  Snake Skin Shield
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x03
+SlotType  5
+Description  {equip.A_shield_made_of_snake_skin_stretched_across_a_rigid_frame.}
+Sound  spell/fire_spray
+Projectile  
+ObjectId  Silver Shield
+Speed  160
+MinDamage  250
+MaxDamage  300
+LifetimeMS  200
+Size  140
+ConditionEffect  duration  3
+Stunned
+MultiHit  
+PassesCover  
+ParticleTrail  
+ActivateOnEquip  stat  21
+amount  7
+IncrementStat
+ActivateOnEquip  stat  22
+amount  3
+IncrementStat
+ConditionEffect  duration  3
+Stunned
+Usable  
+BagType  1
+MpCost  100
+Activate  Shoot
+NumProjectiles  4
+feedPower  175
+Soulbound  
+DisplayId  {equip.Snake_Skin_Shield}
+Object
+type  0xc0f
+id  Shield of Ogmur
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x56
+SlotType  5
+Description  {equip.This_massive_shield_was_created_for_the_wealthy_and_powerfu}
+Sound  spell/fire_spray
+Projectile  
+ObjectId  Silver Shield
+Speed  160
+MinDamage  300
+MaxDamage  400
+LifetimeMS  200
+Size  140
+ConditionEffect  duration  4
+Armor Broken
+MultiHit  
+PassesCover  
+ParticleTrail  
+ActivateOnEquip  stat  21
+amount  14
+IncrementStat
+ActivateOnEquip  stat  0
+amount  60
+IncrementStat
+ConditionEffect  duration  4
+Armor Broken
+Usable  
+BagType  4
+FameBonus  6
+MpCost  100
+Activate  Shoot
+NumProjectiles  5
+feedPower  1000
+Soulbound  
+DisplayId  {equip.Shield_of_Ogmur}
+Object
+type  0xa78
+id  Wolfskin Armor
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x00
+SlotType  6
+Tier  1
+Description  {equip.Leather_armor_fashioned_from_wolf_pelts.}
+ActivateOnEquip  stat  21
+amount  5
+IncrementStat
+BagType  0
+feedPower  7
+DisplayId  {equip.Wolfskin_Armor}
+Object
+type  0xa0d
+id  Leather Armor
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x01
+SlotType  6
+Tier  2
+Description  {equip.Armor_made_of_hardened_leather.}
+ActivateOnEquip  stat  21
+amount  6
+IncrementStat
+BagType  0
+feedPower  9
+DisplayId  {equip.Leather_Armor}
+Object
+type  0xa79
+id  Basilisk Hide Armor
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x02
+SlotType  6
+Tier  3
+Description  {equip.Leather_armor_made_from_the_skin_of_a_magical_lizard.}
+ActivateOnEquip  stat  21
+amount  7
+IncrementStat
+BagType  0
+feedPower  14
+DisplayId  {equip.Basilisk_Hide_Armor}
+Object
+type  0xa7a
+id  Minotaur Hide Armor
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x03
+SlotType  6
+Tier  4
+Description  {equip.Leather_armor_made_from_the_tough_hide_of_a_minotaur.}
+ActivateOnEquip  stat  21
+amount  8
+IncrementStat
+ActivateOnEquip  stat  28
+amount  2
+IncrementStat
+BagType  0
+feedPower  20
+DisplayId  {equip.Minotaur_Hide_Armor}
+Object
+type  0xad0
+id  Bearskin Armor
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x04
+SlotType  6
+Tier  5
+Description  {equip.Armor_made_from_the_thick_leather_of_a_dire_bear.}
+ActivateOnEquip  stat  21
+amount  9
+IncrementStat
+ActivateOnEquip  stat  28
+amount  2
+IncrementStat
+BagType  0
+feedPower  27
+DisplayId  {equip.Bearskin_Armor}
+Object
+type  0xad1
+id  Chimera Hide Armor
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x05
+SlotType  6
+Tier  6
+Description  {equip.Magically_protective_leather_armor_made_from_chimera_hides.}
+ActivateOnEquip  stat  21
+amount  10
+IncrementStat
+ActivateOnEquip  stat  28
+amount  2
+IncrementStat
+BagType  1
+feedPower  39
+DisplayId  {equip.Chimera_Hide_Armor}
+Object
+type  0xad2
+id  Wyvern Skin Armor
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x06
+SlotType  6
+Tier  7
+Description  {equip.Tough,_durable_armor_made_from_wyvern_leather.}
+ActivateOnEquip  stat  21
+amount  12
+IncrementStat
+ActivateOnEquip  stat  28
+amount  2
+IncrementStat
+BagType  1
+feedPower  55
+DisplayId  {equip.Wyvern_Skin_Armor}
+Object
+type  0xa0e
+id  Studded Leather Armor
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x07
+SlotType  6
+Tier  8
+Description  {equip.Leather_armor_studded_with_metal_rivets_that_provide_extra_}
+ActivateOnEquip  stat  21
+amount  13
+IncrementStat
+ActivateOnEquip  stat  28
+amount  3
+IncrementStat
+BagType  1
+feedPower  77
+DisplayId  {equip.Studded_Leather_Armor}
+Object
+type  0xa3e
+id  Snake Skin Armor
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x00
+SlotType  6
+Description  {equip.A_tight_fitting_garment_of_snake_skin_that_is_both_function}
+ActivateOnEquip  stat  21
+amount  11
+IncrementStat
+ActivateOnEquip  stat  22
+amount  3
+IncrementStat
+ActivateOnEquip  stat  28
+amount  3
+IncrementStat
+BagType  1
+FameBonus  1
+feedPower  120
+Soulbound  
+DisplayId  {equip.Snake_Skin_Armor}
+Object
+type  0xad3
+id  Drake Hide Armor
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x08
+SlotType  6
+Tier  9
+Description  {equip.Leather_armor_fashioned_from_the_scaly_skin_of_firebreathin}
+ActivateOnEquip  stat  21
+amount  14
+IncrementStat
+ActivateOnEquip  stat  28
+amount  3
+IncrementStat
+BagType  1
+FameBonus  1
+feedPower  110
+DisplayId  {equip.Drake_Hide_Armor}
+Object
+type  0xa8e
+id  Roc Leather Armor
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x09
+SlotType  6
+Tier  10
+Description  {equip.Leather_armor_made_from_the_durable_hide_of_a_roc.}
+ActivateOnEquip  stat  21
+amount  15
+IncrementStat
+ActivateOnEquip  stat  28
+amount  4
+IncrementStat
+BagType  2
+FameBonus  2
+feedPower  155
+DisplayId  {equip.Roc_Leather_Armor}
+Object
+type  0xa8f
+id  Hippogriff Hide Armor
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x0a
+SlotType  6
+Tier  11
+Description  {equip.Leather_armor_made_from_the_protective_skin_of_hippogriffs.}
+ActivateOnEquip  stat  21
+amount  16
+IncrementStat
+ActivateOnEquip  stat  28
+amount  4
+IncrementStat
+BagType  2
+FameBonus  3
+feedPower  218
+DisplayId  {equip.Hippogriff_Hide_Armor}
+Object
+type  0xa90
+id  Griffon Hide Armor
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x0b
+SlotType  6
+Tier  12
+Description  {equip.Superior_leather_armor_made_from_the_magical_hide_of_a_grif}
+ActivateOnEquip  stat  21
+amount  17
+IncrementStat
+ActivateOnEquip  stat  28
+amount  4
+IncrementStat
+BagType  2
+FameBonus  4
+feedPower  308
+DisplayId  {equip.Griffon_Hide_Armor}
+Object
+type  0xaf9
+id  Hydra Skin Armor
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x0c
+SlotType  6
+Tier  13
+Description  {equip.Superlative_leather_armor_fashioned_from_the_skin_of_a_twel}
+ActivateOnEquip  stat  21
+amount  17
+IncrementStat
+ActivateOnEquip  stat  28
+amount  5
+IncrementStat
+BagType  2
+FameBonus  4
+feedPower  435
+DisplayId  {equip.Hydra_Skin_Armor}
+Object
+type  0x9c1
+id  Wyrmhide Armor
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x0d
+SlotType  6
+Description  {equip.Outstanding_leather_armor_made_from_the_virtually_impregnab}
+ActivateOnEquip  stat  21
+amount  18
+IncrementStat
+ActivateOnEquip  stat  28
+amount  5
+IncrementStat
+BagType  2
+FameBonus  5
+feedPower  0
+Soulbound  
+DisplayId  {equip.Wyrmhide_Armor}
+Object
+type  0x9c3
+id  Leviathan Armor
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x0e
+SlotType  6
+Description  {equip.Magnificent_leather_armor_made_from_the_hide_of_the_great_l}
+ActivateOnEquip  stat  21
+amount  19
+IncrementStat
+ActivateOnEquip  stat  28
+amount  5
+IncrementStat
+BagType  2
+FameBonus  6
+feedPower  0
+Soulbound  
+DisplayId  {equip.Leviathan_Armor}
+Object
+type  0xa7b
+id  Iron Mail
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x20
+SlotType  7
+Tier  1
+Description  {equip.Armor_made_from_interlocking_iron_links.}
+ActivateOnEquip  stat  21
+amount  5
+IncrementStat
+BagType  0
+feedPower  7
+DisplayId  {equip.Iron_Mail}
+Object
+type  0xa0f
+id  Chainmail
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x21
+SlotType  7
+Tier  2
+Description  {equip.Armor_made_from_interlocking_links_of_metal.}
+ActivateOnEquip  stat  21
+amount  6
+IncrementStat
+BagType  0
+feedPower  9
+DisplayId  {equip.Chainmail}
+Object
+type  0xa7c
+id  Blue Steel Mail
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x22
+SlotType  7
+Tier  3
+Description  {equip.Mail_made_from_blued_steel.}
+ActivateOnEquip  stat  21
+amount  7
+IncrementStat
+BagType  0
+feedPower  14
+DisplayId  {equip.Blue_Steel_Mail}
+Object
+type  0xa7d
+id  Silver Chainmail
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x23
+SlotType  7
+Tier  4
+Description  {equip.Well-made_chainmail_plated_with_silver.}
+ActivateOnEquip  stat  21
+amount  8
+IncrementStat
+BagType  0
+feedPower  20
+DisplayId  {equip.Silver_Chainmail}
+Object
+type  0xa10
+id  Golden Chainmail
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x24
+SlotType  7
+Tier  5
+Description  {equip.Well-made_chainmail_plated_with_gold,_clearly_intended_for_}
+ActivateOnEquip  stat  21
+amount  10
+IncrementStat
+BagType  0
+feedPower  27
+DisplayId  {equip.Golden_Chainmail}
+Object
+type  0xa11
+id  Plate Mail
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x25
+SlotType  7
+Tier  6
+Description  {equip.Armor_made_from_overlapping_plates_of_metal.}
+ActivateOnEquip  stat  21
+amount  12
+IncrementStat
+BagType  1
+feedPower  39
+DisplayId  {equip.Plate_Mail}
+Object
+type  0xadf
+id  Mithril Chainmail
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x26
+SlotType  7
+Tier  7
+Description  {equip.Chainmail_made_with_reinforcing_mithril_ribs.}
+ActivateOnEquip  stat  21
+amount  13
+IncrementStat
+BagType  1
+feedPower  55
+DisplayId  {equip.Mithril_Chainmail}
+Object
+type  0xa12
+id  Mithril Armor
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x27
+SlotType  7
+Tier  8
+Description  {equip.Armor_made_from_the_strongest_and_most_desirable_of_all_met}
+ActivateOnEquip  stat  21
+amount  15
+IncrementStat
+BagType  1
+FameBonus  1
+feedPower  77
+DisplayId  {equip.Mithril_Armor}
+Object
+type  0xa13
+id  Dragonscale Armor
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x28
+SlotType  7
+Tier  9
+Description  {equip.Armor_made_from_the_scales_of_a_full_grown_dragon.}
+ActivateOnEquip  stat  21
+amount  20
+IncrementStat
+BagType  1
+FameBonus  1
+feedPower  110
+DisplayId  {equip.Dragonscale_Armor}
+Object
+type  0xa91
+id  Desolation Armor
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x29
+SlotType  7
+Tier  10
+Description  {equip.Magical_cold_plate_armor_inscribed_with_tales_of_destructio}
+ActivateOnEquip  stat  21
+amount  21
+IncrementStat
+BagType  2
+FameBonus  2
+feedPower  155
+DisplayId  {equip.Desolation_Armor}
+Object
+type  0xa92
+id  Vengeance Armor
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x2a
+SlotType  7
+Tier  11
+Description  {equip.Tremendously_strong_plate_armor_shrouded_by_an_aura_of_demo}
+ActivateOnEquip  stat  21
+amount  22
+IncrementStat
+BagType  2
+FameBonus  3
+feedPower  218
+DisplayId  {equip.Vengeance_Armor}
+Object
+type  0xa93
+id  Abyssal Armor
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x2b
+SlotType  7
+Tier  12
+Description  {equip.Mighty_felplate_armor_designed_for_the_most_powerful_of_dem}
+ActivateOnEquip  stat  21
+amount  23
+IncrementStat
+BagType  2
+FameBonus  4
+feedPower  308
+DisplayId  {equip.Abyssal_Armor}
+Object
+type  0xafc
+id  Acropolis Armor
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x2c
+SlotType  7
+Tier  13
+Description  {equip.Indestructible_magical_armor_made_for_the_elite_stoneborn_c}
+ActivateOnEquip  stat  21
+amount  24
+IncrementStat
+BagType  2
+FameBonus  4
+feedPower  435
+DisplayId  {equip.Acropolis_Armor}
+Object
+type  0x9c4
+id  Dominion Armor
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x2d
+SlotType  7
+Description  {equip.Exquisitely_decorated_adamantine_armor_smithed_by_underdeep}
+ActivateOnEquip  stat  21
+amount  25
+IncrementStat
+BagType  2
+FameBonus  5
+feedPower  0
+Soulbound  
+DisplayId  {equip.Dominion_Armor}
+Object
+type  0x9c5
+id  Annihilation Armor
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x2e
+SlotType  7
+Description  {equip.Impenetrable_forceplate_armor_worn_by_the_blackguard_conque}
+ActivateOnEquip  stat  21
+amount  26
+IncrementStat
+BagType  2
+FameBonus  6
+feedPower  0
+Soulbound  
+DisplayId  {equip.Annihilation_Armor}
+Object
+type  0xa14
+id  Steel Dagger
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x60
+SlotType  2
+Tier  0
+Description  {equip.A_sharp_dagger_made_of_steel.}
+RateOfFire  1
+Sound  weapon/blunt_dagger
+Projectile  
+ObjectId  Blade
+Speed  140
+MinDamage  20
+MaxDamage  60
+LifetimeMS  400
+BagType  0
+OldSound  daggerSwing
+feedPower  5
+DisplayId  {equip.Steel_Dagger}
+Object
+type  0xa15
+id  Dirk
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x61
+SlotType  2
+Tier  1
+Description  {equip.A_short_sword_blade_mounted_on_a_dagger_hilt.}
+RateOfFire  1
+Sound  weapon/dirk
+Projectile  
+ObjectId  Blade
+Speed  140
+MinDamage  20
+MaxDamage  70
+LifetimeMS  400
+BagType  0
+OldSound  daggerSwing
+feedPower  7
+DisplayId  {equip.Dirk}
+Object
+type  0xa72
+id  Blue Steel Dagger
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x62
+SlotType  2
+Tier  2
+Description  {equip.A_dagger_made_of_blued_steel.}
+RateOfFire  1
+Sound  weapon/dirk
+Projectile  
+ObjectId  Blade
+Speed  140
+MinDamage  20
+MaxDamage  75
+LifetimeMS  400
+BagType  0
+OldSound  daggerSwing
+feedPower  10
+DisplayId  {equip.Blue_Steel_Dagger}
+Object
+type  0xa73
+id  Dusky Rose Dagger
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x63
+SlotType  2
+Tier  3
+Description  {equip.A_dagger_made_of_rose_tinted_steel.}
+RateOfFire  1
+Sound  weapon/dirk
+Projectile  
+ObjectId  Blade
+Speed  140
+MinDamage  25
+MaxDamage  80
+LifetimeMS  400
+BagType  0
+OldSound  daggerSwing
+feedPower  15
+DisplayId  {equip.Dusky_Rose_Dagger}
+Object
+type  0xa74
+id  Silver Dagger
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x64
+SlotType  2
+Tier  4
+Description  {equip.A_silver-plated_steel_dagger.}
+RateOfFire  1
+Sound  weapon/dirk
+Projectile  
+ObjectId  Blade
+Speed  140
+MinDamage  30
+MaxDamage  80
+LifetimeMS  400
+BagType  0
+OldSound  daggerSwing
+feedPower  22
+DisplayId  {equip.Silver_Dagger}
+Object
+type  0xa16
+id  Golden Dagger
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x65
+SlotType  2
+Tier  5
+Description  {equip.A_well-made_dagger_plated_with_gold_and_inscribed_with_evil}
+RateOfFire  1
+Sound  weapon/golden_dagger
+Projectile  
+ObjectId  Blade
+Speed  140
+MinDamage  30
+MaxDamage  90
+LifetimeMS  400
+BagType  0
+OldSound  daggerSwing
+feedPower  32
+DisplayId  {equip.Golden_Dagger}
+Object
+type  0xa17
+id  Obsidian Dagger
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x66
+SlotType  2
+Tier  6
+Description  {equip.A_dagger_with_a_blade_made_of_volcanic_glass.}
+RateOfFire  1.5
+Sound  weapon/obsidian_dagger
+Projectile  
+ObjectId  Blade
+Speed  140
+MinDamage  35
+MaxDamage  65
+LifetimeMS  400
+BagType  1
+OldSound  daggerSwing
+feedPower  47
+DisplayId  {equip.Obsidian_Dagger}
+Object
+type  0x709
+id  Poison Fang Dagger
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x22
+SlotType  2
+Description  {equip.A_dagger_fashioned_from_the_fang_of_an_enormous_spider.}
+RateOfFire  1
+Sound  weapon/poison_fang_dagger
+Projectile  
+ObjectId  Green Bolt
+Speed  140
+MinDamage  55
+MaxDamage  120
+LifetimeMS  400
+BagType  1
+OldSound  daggerSwing
+feedPower  150
+Soulbound  
+DisplayId  {equip.Poison_Fang_Dagger}
+Object
+type  0xa18
+id  Mithril Dagger
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x67
+SlotType  2
+Tier  7
+Description  {equip.An_extremely_sharp_dagger_made_from_the_strongest_and_most_}
+RateOfFire  1
+Sound  weapon/mithril_dagger
+Projectile  
+ObjectId  Blade
+Speed  140
+MinDamage  60
+MaxDamage  140
+LifetimeMS  400
+BagType  1
+OldSound  daggerSwing
+feedPower  70
+DisplayId  {equip.Mithril_Dagger}
+Object
+type  0xa19
+id  Fire Dagger
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x68
+SlotType  2
+Tier  8
+Description  {equip.A_dagger_with_a_blade_that_burns_with_an_unholy_magic.}
+RateOfFire  1
+Sound  weapon/fire_dagger
+Projectile  
+ObjectId  Red Fire
+Speed  140
+MinDamage  80
+MaxDamage  160
+LifetimeMS  400
+BagType  1
+FameBonus  1
+OldSound  daggerSwing
+feedPower  100
+DisplayId  {equip.Fire_Dagger}
+Object
+type  0xa88
+id  Ragetalon Dagger
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x69
+SlotType  2
+Tier  9
+Description  {equip.A_sharp_druidic_dagger_vibrating_with_primal_energies.}
+RateOfFire  1
+Sound  weapon/fire_dagger
+Projectile  
+ObjectId  White Bolt
+Speed  140
+MinDamage  85
+MaxDamage  165
+LifetimeMS  400
+BagType  1
+FameBonus  1
+OldSound  daggerSwing
+feedPower  145
+DisplayId  {equip.Ragetalon_Dagger}
+Object
+type  0xa89
+id  Emeraldshard Dagger
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x6a
+SlotType  2
+Tier  10
+Description  {equip.A_deadly_dagger_of_glittering_magical_emerald.}
+RateOfFire  1
+Sound  weapon/fire_dagger
+Projectile  
+ObjectId  Green Bolt
+Speed  140
+MinDamage  90
+MaxDamage  170
+LifetimeMS  400
+BagType  2
+FameBonus  2
+OldSound  daggerSwing
+feedPower  212
+DisplayId  {equip.Emeraldshard_Dagger}
+Object
+type  0xa8a
+id  Agateclaw Dagger
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x6b
+SlotType  2
+Tier  11
+Description  {equip.A_dagger_of_rare_purple_agate,_infused_with_powerful_dark_m}
+RateOfFire  1
+Sound  weapon/fire_dagger
+Projectile  
+ObjectId  Blue Magic
+Speed  140
+MinDamage  90
+MaxDamage  175
+LifetimeMS  400
+BagType  2
+FameBonus  3
+OldSound  daggerSwing
+feedPower  310
+DisplayId  {equip.Agateclaw_Dagger}
+Object
+type  0xaff
+id  Dagger of Foul Malevolence
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x6c
+SlotType  2
+Tier  12
+Description  {equip.A_crimson_felsteel_dagger_saturated_with_evil_magic_and_pri}
+RateOfFire  1
+Sound  weapon/fire_dagger
+Projectile  
+ObjectId  Purple Magic
+Speed  140
+MinDamage  95
+MaxDamage  175
+LifetimeMS  400
+BagType  2
+FameBonus  4
+OldSound  daggerSwing
+feedPower  450
+DisplayId  {equip.Dagger_of_Foul_Malevolence}
+Object
+type  0x9c6
+id  Dagger of Sinister Deeds
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x6d
+SlotType  2
+Description  {equip.A_moonsteel_dagger_of_the_underworld,_corrupted_by_loathsom}
+RateOfFire  1
+Sound  weapon/fire_dagger
+Projectile  
+ObjectId  Green Magic
+Speed  140
+MinDamage  95
+MaxDamage  180
+LifetimeMS  400
+BagType  2
+FameBonus  4
+OldSound  daggerSwing
+feedPower  0
+Soulbound  
+DisplayId  {equip.Dagger_of_Sinister_Deeds}
+Object
+type  0x9c7
+id  Dagger of Dire Hatred
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x6e
+SlotType  2
+Description  {equip.A_jagged,_wickedly_barbed_blade_of_evil,_charged_with_the_u}
+RateOfFire  1
+Sound  weapon/fire_dagger
+Projectile  
+ObjectId  Black Magic
+Speed  140
+MinDamage  100
+MaxDamage  180
+LifetimeMS  400
+BagType  2
+FameBonus  5
+OldSound  daggerSwing
+feedPower  0
+Soulbound  
+DisplayId  {equip.Dagger_of_Dire_Hatred}
+Object
+type  0xc0a
+id  Dirk of Cronus
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x54
+SlotType  2
+Description  {equip.This_legendary_dagger_was_commissioned_by_a_band_of_mad_rog}
+RateOfFire  1
+Sound  weapon/fire_dagger
+Projectile  
+ObjectId  Rainbow Magic
+Speed  180
+MinDamage  105
+MaxDamage  210
+LifetimeMS  249
+ActivateOnEquip  stat  27
+amount  4
+IncrementStat
+BagType  4
+FameBonus  6
+OldSound  daggerSwing
+feedPower  950
+Soulbound  
+DisplayId  {equip.Dirk_of_Cronus}
+Object
+type  0xa1a
+id  Shortbow
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x50
+SlotType  3
+Tier  0
+Description  {equip.A_well-made_shortbow.}
+RateOfFire  1
+Sound  weapon/poor_quality_bow
+Projectile  
+ObjectId  Green Arrow
+Speed  160
+MinDamage  10
+MaxDamage  40
+LifetimeMS  440
+MultiHit  
+BagType  0
+OldSound  arrowShoot
+feedPower  5
+DisplayId  {equip.Shortbow}
+Object
+type  0xa75
+id  Reinforced Bow
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x51
+SlotType  3
+Tier  1
+Description  {equip.An_iron-reinforced_bow.}
+RateOfFire  1
+Sound  weapon/poor_quality_bow
+Projectile  
+ObjectId  Green Arrow
+Speed  160
+MinDamage  15
+MaxDamage  45
+LifetimeMS  440
+MultiHit  
+BagType  0
+OldSound  arrowShoot
+feedPower  7
+DisplayId  {equip.Reinforced_Bow}
+Object
+type  0xa1b
+id  Crossbow
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x52
+SlotType  3
+Tier  2
+Description  {equip.A_bow_mounted_on_a_stock_that_shoots_with_amazing_speed_and}
+RateOfFire  1
+Sound  weapon/crossbow
+Projectile  
+ObjectId  Crossbow Bolt
+Speed  200
+MinDamage  20
+MaxDamage  50
+LifetimeMS  375
+MultiHit  
+BagType  0
+OldSound  arrowShoot
+feedPower  10
+DisplayId  {equip.Crossbow}
+Object
+type  0xa76
+id  Greywood Bow
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x53
+SlotType  3
+Tier  3
+Description  {equip.A_bow_made_from_the_rare_greywood_tree.}
+RateOfFire  1
+Sound  weapon/poor_quality_bow
+Projectile  
+ObjectId  Green Arrow
+Speed  160
+MinDamage  25
+MaxDamage  55
+LifetimeMS  440
+MultiHit  
+BagType  0
+OldSound  arrowShoot
+feedPower  15
+DisplayId  {equip.Greywood_Bow}
+Object
+type  0xa77
+id  Ironwood Bow
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x54
+SlotType  3
+Tier  4
+Description  {equip.A_high-quality_bow_made_of_magical_ironwood.}
+RateOfFire  1
+Sound  weapon/poor_quality_bow
+Projectile  
+ObjectId  Green Arrow
+Speed  160
+MinDamage  35
+MaxDamage  65
+LifetimeMS  440
+MultiHit  
+BagType  0
+OldSound  arrowShoot
+feedPower  22
+DisplayId  {equip.Ironwood_Bow}
+Object
+type  0xa1c
+id  Fire Bow
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x55
+SlotType  3
+Tier  5
+Description  {equip.A_bow_that_shoots_arrows_that_burn_with_an_unholy_fire.}
+RateOfFire  1
+Sound  weapon/fire_bow
+Projectile  
+ObjectId  Red Fire
+Speed  160
+MinDamage  45
+MaxDamage  65
+LifetimeMS  440
+MultiHit  
+BagType  0
+OldSound  arrowShoot
+feedPower  32
+DisplayId  {equip.Fire_Bow}
+Object
+type  0xa1d
+id  Double Bow
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x56
+SlotType  3
+Tier  6
+Description  {equip.A_bow_that_somehow_manages_to_shoot_two_arrows_in_different}
+RateOfFire  1
+Sound  weapon/double_bow
+Projectile  
+ObjectId  Blue Arrow
+Speed  160
+MinDamage  30
+MaxDamage  50
+LifetimeMS  440
+MultiHit  
+BagType  1
+NumProjectiles  2
+OldSound  arrowShoot
+feedPower  47
+DisplayId  {equip.Double_Bow}
+Object
+type  0xa3a
+id  Heavy Crossbow
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x57
+SlotType  3
+Tier  7
+Description  {equip.A_slow_but_powerful_crossbow_with_a_good_grip.}
+RateOfFire  1
+Sound  weapon/heavy_crossbow
+Projectile  
+ObjectId  Heavy Crossbow Bolt
+Speed  150
+MinDamage  50
+MaxDamage  70
+LifetimeMS  500
+MultiHit  
+BagType  1
+OldSound  arrowShoot
+feedPower  70
+DisplayId  {equip.Heavy_Crossbow}
+Object
+type  0xa1e
+id  Golden Bow
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x58
+SlotType  3
+Tier  8
+Description  {equip.A_bow_gifted_to_mortals_from_the_gods_themselves._It_shoots}
+RateOfFire  1
+Sound  weapon/golden_bow
+Projectile  
+ObjectId  Gold Arrow
+Speed  160
+MinDamage  40
+MaxDamage  60
+LifetimeMS  440
+MultiHit  
+BagType  1
+FameBonus  1
+NumProjectiles  3
+OldSound  arrowShoot
+feedPower  100
+DisplayId  {equip.Golden_Bow}
+Object
+type  0xa8b
+id  Verdant Bow
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x59
+SlotType  3
+Tier  9
+Description  {equip.A_highly_effective_bow_fashioned_of_still-living_magical_sp}
+RateOfFire  1
+Sound  weapon/golden_bow
+Projectile  
+ObjectId  Green Arrow
+Speed  160
+MinDamage  40
+MaxDamage  65
+LifetimeMS  440
+MultiHit  
+BagType  1
+FameBonus  1
+NumProjectiles  3
+OldSound  arrowShoot
+feedPower  145
+DisplayId  {equip.Verdant_Bow}
+Object
+type  0xa8c
+id  Bow of Fey Magic
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x5a
+SlotType  3
+Tier  10
+Description  {equip.A_powerful_bow_crafted_by_dryads_and_blessed_by_the_spirits}
+RateOfFire  1
+Sound  weapon/golden_bow
+Projectile  
+ObjectId  Blue Arrow
+Speed  160
+MinDamage  45
+MaxDamage  65
+LifetimeMS  440
+MultiHit  
+BagType  2
+FameBonus  2
+NumProjectiles  3
+OldSound  arrowShoot
+feedPower  212
+DisplayId  {equip.Bow_of_Fey_Magic}
+Object
+type  0xa8d
+id  Bow of Innocent Blood
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x5b
+SlotType  3
+Tier  11
+Description  {equip.A_runed_bow_steeped_in_the_dark_power_of_ancient_injustice.}
+RateOfFire  1
+Sound  weapon/golden_bow
+Projectile  
+ObjectId  Red Arrow
+Speed  160
+MinDamage  45
+MaxDamage  70
+LifetimeMS  440
+MultiHit  
+BagType  2
+FameBonus  3
+NumProjectiles  3
+OldSound  arrowShoot
+feedPower  310
+DisplayId  {equip.Bow_of_Innocent_Blood}
+Object
+type  0xb02
+id  Bow of Covert Havens
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x5c
+SlotType  3
+Tier  12
+Description  {equip.A_diamondwire_bow_used_by_guardians_of_the_unseen_ethereal_}
+RateOfFire  1
+Sound  weapon/golden_bow
+Projectile  
+ObjectId  Blue Arrow
+Speed  160
+MinDamage  50
+MaxDamage  70
+LifetimeMS  440
+MultiHit  
+BagType  2
+FameBonus  4
+NumProjectiles  3
+OldSound  arrowShoot
+feedPower  450
+DisplayId  {equip.Bow_of_Covert_Havens}
+Object
+type  0x9cc
+id  Bow of Mystical Energy
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x5d
+SlotType  3
+Description  {equip.A_superlative_bow_of_sunsteel_and_diamondwire,_created_by_a}
+RateOfFire  1
+Sound  weapon/golden_bow
+Projectile  
+ObjectId  Gold Arrow
+Speed  160
+MinDamage  50
+MaxDamage  75
+LifetimeMS  440
+MultiHit  
+BagType  2
+FameBonus  4
+NumProjectiles  3
+OldSound  arrowShoot
+feedPower  0
+Soulbound  
+DisplayId  {equip.Bow_of_Mystical_Energy}
+Object
+type  0x9cd
+id  Bow of Deep Enchantment
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x5e
+SlotType  3
+Description  {equip.A_peerless_triple_bow_crafted_of_nightmatter_and_diamondwir}
+RateOfFire  1
+Sound  weapon/golden_bow
+Projectile  
+ObjectId  Black Arrow
+Speed  160
+MinDamage  55
+MaxDamage  75
+LifetimeMS  440
+MultiHit  
+BagType  2
+FameBonus  5
+NumProjectiles  3
+OldSound  arrowShoot
+feedPower  0
+Soulbound  
+DisplayId  {equip.Bow_of_Deep_Enchantment}
+Object
+type  0xc02
+id  Doom Bow
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x6a
+SlotType  3
+Description  {equip.No_mortal_can_fire_this_dreaded_bow_without_resting_in_betw}
+RateOfFire  0.33
+Sound  weapon/golden_bow
+Projectile  
+ObjectId  Black Arrow
+Speed  140
+MinDamage  400
+MaxDamage  500
+LifetimeMS  503
+MultiHit  
+BagType  4
+FameBonus  6
+NumProjectiles  1
+OldSound  arrowShoot
+feedPower  900
+Soulbound  
+DisplayId  {equip.Doom_Bow}
+Object
+type  0xc10
+id  Coral Bow
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x04
+SlotType  3
+Description  {equip.A_bow_fashioned_from_living_coral_found_in_only_the_deepest}
+RateOfFire  1.25
+Sound  weapon/double_bow
+Projectile  
+ObjectId  Coral Arrow
+Speed  185
+MinDamage  60
+MaxDamage  80
+LifetimeMS  420
+MultiHit  
+BagType  4
+FameBonus  6
+NumProjectiles  2
+OldSound  arrowShoot
+feedPower  1200
+Soulbound  
+DisplayId  {equip.Coral_Bow}
+Object
+type  0xa1f
+id  Potion of Attack
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x34
+SlotType  10
+Tier  2
+Description  {equip.A_potion_that_permanently_increases_attack_power.}
+Sound  use_potion
+Activate  stat  20
+amount  1
+IncrementStat
+Consumable  
+Potion  
+BagType  3
+feedPower  150
+DisplayId  {equip.Potion_of_Attack}
+Object
+type  0xa20
+id  Potion of Defense
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x35
+SlotType  10
+Tier  2
+Description  {equip.A_potion_that_permanently_increases_defense_power.}
+Sound  use_potion
+Activate  stat  21
+amount  1
+IncrementStat
+Consumable  
+Potion  
+BagType  3
+feedPower  150
+DisplayId  {equip.Potion_of_Defense}
+Object
+type  0xa21
+id  Potion of Speed
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x36
+SlotType  10
+Tier  2
+Description  {equip.A_potion_that_permanently_increases_speed.}
+Sound  use_potion
+Activate  stat  22
+amount  1
+IncrementStat
+Consumable  
+Potion  
+BagType  3
+feedPower  150
+DisplayId  {equip.Potion_of_Speed}
+Object
+type  0xa34
+id  Potion of Vitality
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x30
+SlotType  10
+Tier  2
+Description  {equip.A_potion_that_permanently_increases_vitality.}
+Sound  use_potion
+Activate  stat  26
+amount  1
+IncrementStat
+Consumable  
+Potion  
+BagType  3
+feedPower  150
+DisplayId  {equip.Potion_of_Vitality}
+Object
+type  0xa35
+id  Potion of Wisdom
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x31
+SlotType  10
+Tier  2
+Description  {equip.A_potion_that_permanently_increases_wisdom.}
+Sound  use_potion
+Activate  stat  27
+amount  1
+IncrementStat
+Consumable  
+Potion  
+BagType  3
+feedPower  150
+DisplayId  {equip.Potion_of_Wisdom}
+Object
+type  0xa4c
+id  Potion of Dexterity
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x37
+SlotType  10
+Tier  2
+Description  {equip.A_potion_that_permanently_increases_dexterity.}
+Sound  use_potion
+Activate  stat  28
+amount  1
+IncrementStat
+Consumable  
+Potion  
+BagType  3
+feedPower  150
+DisplayId  {equip.Potion_of_Dexterity}
+Object
+type  0xae9
+id  Potion of Life
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x26
+SlotType  10
+Description  {equip.A_potion_that_permanently_increases_health.}
+Sound  use_potion
+Activate  stat  0
+amount  5
+IncrementStat
+Consumable  
+Potion  
+BagType  3
+feedPower  250
+DisplayId  {equip.Potion_of_Life}
+Object
+type  0xaea
+id  Potion of Mana
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x27
+SlotType  10
+Description  {equip.A_potion_that_permanently_increases_magic.}
+Sound  use_potion
+Activate  stat  3
+amount  5
+IncrementStat
+Consumable  
+Potion  
+BagType  3
+feedPower  250
+DisplayId  {equip.Potion_of_Mana}
+Object
+type  0xab0
+id  Minor Health Potion
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xf6
+SlotType  10
+Description  {equip.A_small_potion_that_restores_health_points.}
+Sound  use_potion
+Activate  amount  50
+Heal
+Consumable  
+Potion  
+BagType  0
+feedPower  5
+DisplayId  {equip.Minor_Health_Potion}
+Object
+type  0xadd
+id  Minor Magic Potion
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xf7
+SlotType  10
+Description  {equip.A_small_potion_that_restores_magic_points.}
+Sound  use_potion
+Activate  amount  50
+Magic
+Consumable  
+Potion  
+feedPower  5
+DisplayId  {equip.Minor_Magic_Potion}
+Object
+type  0xa22
+id  Health Potion
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x32
+SlotType  10
+Tier  1
+Description  {equip.A_potion_that_instantly_restores_health_points.}
+Sound  use_potion
+Activate  amount  100
+Heal
+Consumable  
+Potion  
+BagType  0
+feedPower  5
+DisplayId  {equip.Health_Potion}
+Object
+type  0xa23
+id  Magic Potion
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x33
+SlotType  10
+Tier  1
+Description  {equip.A_potion_that_instantly_restores_magic_points.}
+Sound  use_potion
+Activate  amount  100
+Magic
+Consumable  
+Potion  
+BagType  0
+feedPower  5
+DisplayId  {equip.Magic_Potion}
+Object
+type  0xb34
+id  Fire Water
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x2b
+SlotType  10
+Tier  3
+Description  {equip.A_potent_draught_from_OryxAPOSs_wine_cellar.}
+Sound  use_potion
+Activate  amount  230
+Heal
+Consumable  
+Potion  
+BagType  3
+feedPower  80
+DisplayId  {equip.Fire_Water}
+Object
+type  0xb35
+id  Cream Spirit
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x2c
+SlotType  10
+Tier  3
+Description  {equip.A_potent_draught_from_OryxAPOSs_wine_cellar.}
+Sound  use_potion
+Activate  amount  150
+Magic
+Consumable  
+Potion  
+BagType  3
+feedPower  80
+DisplayId  {equip.Cream_Spirit}
+Object
+type  0xb36
+id  Chardonnay
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x2d
+SlotType  10
+Tier  3
+Description  {equip.A_potent_draught_from_OryxAPOSs_wine_cellar.}
+Sound  use_potion
+Activate  amount  150
+Heal
+Consumable  
+Potion  
+BagType  3
+feedPower  80
+DisplayId  {equip.Chardonnay}
+Object
+type  0xb37
+id  Melon Liqueur
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x2e
+SlotType  10
+Tier  3
+Description  {equip.A_potent_draught_from_OryxAPOSs_wine_cellar.}
+Sound  use_potion
+Activate  amount  150
+Magic
+Consumable  
+Potion  
+BagType  3
+feedPower  80
+DisplayId  {equip.Melon_Liqueur}
+Object
+type  0xb38
+id  Cabernet
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x2f
+SlotType  10
+Tier  3
+Description  {equip.A_potent_draught_from_OryxAPOSs_wine_cellar.}
+Sound  use_potion
+Activate  amount  150
+Heal
+Consumable  
+Potion  
+BagType  3
+feedPower  80
+DisplayId  {equip.Cabernet}
+Object
+type  0xb39
+id  Vintage Port
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x3b
+SlotType  10
+Tier  3
+Description  {equip.A_potent_draught_from_OryxAPOSs_wine_cellar.}
+Sound  use_potion
+Activate  amount  150
+Magic
+Consumable  
+Potion  
+BagType  3
+feedPower  80
+DisplayId  {equip.Vintage_Port}
+Object
+type  0xb3a
+id  Sauvignon Blanc
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x3c
+SlotType  10
+Tier  3
+Description  {equip.A_potent_draught_from_OryxAPOSs_wine_cellar.}
+Sound  use_potion
+Activate  amount  150
+Heal
+Consumable  
+Potion  
+BagType  3
+feedPower  80
+DisplayId  {equip.Sauvignon_Blanc}
+Object
+type  0xb3b
+id  Muscat
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x3d
+SlotType  10
+Tier  3
+Description  {equip.A_potent_draught_from_OryxAPOSs_wine_cellar.}
+Sound  use_potion
+Activate  amount  150
+Magic
+Consumable  
+Potion  
+BagType  3
+feedPower  80
+DisplayId  {equip.Muscat}
+Object
+type  0xb3c
+id  Rice Wine
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x3e
+SlotType  10
+Tier  3
+Description  {equip.A_potent_draught_from_OryxAPOSs_wine_cellar.}
+Sound  use_potion
+Activate  amount  150
+Heal
+Consumable  
+Potion  
+BagType  3
+feedPower  80
+DisplayId  {equip.Rice_Wine}
+Object
+type  0xb3d
+id  Shiraz
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x3f
+SlotType  10
+Tier  3
+Description  {equip.A_potent_draught_from_OryxAPOSs_wine_cellar.}
+Sound  use_potion
+Activate  amount  150
+Magic
+Consumable  
+Potion  
+BagType  3
+feedPower  80
+DisplayId  {equip.Shiraz}
+Object
+type  0xb14
+id  Elixir of Health 7
+DisplayId  {equip.Elixir_of_Health_7}
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xe8
+SlotType  10
+Description  {equip.A_large_vial_holding_seven_doses_of_healing_elixir.}
+Sound  use_potion
+Doses  7
+Activate  amount  125
+Heal
+Consumable  
+SuccessorId  Elixir of Health 6
+Soulbound  
+Potion  
+BagType  3
+feedPower  35
+Object
+type  0xb15
+id  Elixir of Health 6
+DisplayId  {equip.Elixir_of_Health_6}
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xe8
+SlotType  10
+Description  {equip.A_large_vial_holding_six_doses_of_healing_elixir.}
+Sound  use_potion
+Doses  6
+Activate  amount  125
+Heal
+Consumable  
+SuccessorId  Elixir of Health 5
+Soulbound  
+Potion  
+feedPower  30
+Object
+type  0xb16
+id  Elixir of Health 5
+DisplayId  {equip.Elixir_of_Health_5}
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xe8
+SlotType  10
+Description  {equip.A_large_vial_holding_five_doses_of_healing_elixir.}
+Sound  use_potion
+Doses  5
+Activate  amount  125
+Heal
+Consumable  
+SuccessorId  Elixir of Health 4
+Soulbound  
+Potion  
+BagType  3
+feedPower  25
+Object
+type  0xb17
+id  Elixir of Health 4
+DisplayId  {equip.Elixir_of_Health_4}
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xe8
+SlotType  10
+Description  {equip.A_large_vial_holding_four_doses_of_healing_elixir.}
+Sound  use_potion
+Doses  4
+Activate  amount  125
+Heal
+Consumable  
+SuccessorId  Elixir of Health 3
+Soulbound  
+Potion  
+BagType  3
+feedPower  20
+Object
+type  0xa81
+id  Elixir of Health 3
+DisplayId  {equip.Elixir_of_Health_3}
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xe8
+SlotType  10
+Description  {equip.A_large_vial_holding_three_doses_of_healing_elixir.}
+Sound  use_potion
+Doses  3
+Activate  amount  125
+Heal
+Consumable  
+SuccessorId  Elixir of Health 2
+Soulbound  
+Potion  
+BagType  3
+feedPower  15
+Object
+type  0xa48
+id  Elixir of Health 2
+DisplayId  {equip.Elixir_of_Health_2}
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xe8
+SlotType  10
+Description  {equip.A_large_vial_holding_two_doses_of_healing_elixir.}
+Sound  use_potion
+Doses  2
+Activate  amount  125
+Heal
+Consumable  
+SuccessorId  Elixir of Health 1
+Soulbound  
+Potion  
+BagType  3
+feedPower  10
+Object
+type  0xa49
+id  Elixir of Health 1
+DisplayId  {equip.Elixir_of_Health_1}
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xe8
+SlotType  10
+Description  {equip.A_large_vial_of_healing_elixir.}
+Sound  use_potion
+Activate  amount  125
+Heal
+Consumable  
+Soulbound  
+Potion  
+BagType  3
+feedPower  5
+Object
+type  0xb18
+id  Elixir of Magic 7
+DisplayId  {equip.Elixir_of_Magic_7}
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xd8
+SlotType  10
+Description  {equip.A_large_vial_holding_seven_doses_of_magical_essence.}
+Sound  use_potion
+Doses  7
+Activate  amount  125
+Magic
+Consumable  
+SuccessorId  Elixir of Magic 6
+Soulbound  
+Potion  
+BagType  3
+feedPower  35
+Object
+type  0xb19
+id  Elixir of Magic 6
+DisplayId  {equip.Elixir_of_Magic_6}
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xd8
+SlotType  10
+Description  {equip.A_large_vial_holding_six_doses_of_magical_essence.}
+Sound  use_potion
+Doses  6
+Activate  amount  125
+Magic
+Consumable  
+SuccessorId  Elixir of Magic 5
+Soulbound  
+Potion  
+BagType  3
+feedPower  30
+Object
+type  0xb1a
+id  Elixir of Magic 5
+DisplayId  {equip.Elixir_of_Magic_5}
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xd8
+SlotType  10
+Description  {equip.A_large_vial_holding_five_doses_of_magical_essence.}
+Sound  use_potion
+Doses  5
+Activate  amount  125
+Magic
+Consumable  
+SuccessorId  Elixir of Magic 4
+Soulbound  
+Potion  
+BagType  3
+feedPower  25
+Object
+type  0xb1b
+id  Elixir of Magic 4
+DisplayId  {equip.Elixir_of_Magic_4}
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xd8
+SlotType  10
+Description  {equip.A_large_vial_holding_four_doses_of_magical_essence.}
+Sound  use_potion
+Doses  4
+Activate  amount  125
+Magic
+Consumable  
+SuccessorId  Elixir of Magic 3
+Soulbound  
+Potion  
+BagType  3
+feedPower  20
+Object
+type  0xa4a
+id  Elixir of Magic 3
+DisplayId  {equip.Elixir_of_Magic_3}
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xd8
+SlotType  10
+Description  {equip.A_large_vial_holding_three_doses_of_magical_essence.}
+Sound  use_potion
+Doses  3
+Activate  amount  125
+Magic
+Consumable  
+SuccessorId  Elixir of Magic 2
+Soulbound  
+Potion  
+BagType  3
+feedPower  15
+Object
+type  0xaed
+id  Elixir of Magic 2
+DisplayId  {equip.Elixir_of_Magic_2}
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xd8
+SlotType  10
+Description  {equip.A_large_vial_holding_two_doses_of_magical_essence.}
+Sound  use_potion
+Doses  2
+Activate  amount  125
+Magic
+Consumable  
+SuccessorId  Elixir of Magic 1
+Soulbound  
+Potion  
+BagType  3
+feedPower  10
+Object
+type  0xaee
+id  Elixir of Magic 1
+DisplayId  {equip.Elixir_of_Magic_1}
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xd8
+SlotType  10
+Description  {equip.A_large_vial_of_magical_essence.}
+Sound  use_potion
+Activate  amount  125
+Magic
+Consumable  
+Soulbound  
+Potion  
+BagType  3
+feedPower  5
+Object
+type  0xa3f
+id  Snake Oil
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x01
+SlotType  10
+Description  {equip.A_topical_potion_of_healing_that_upon_use_is_shared_with_fe}
+Sound  use_potion
+Consumable  
+Potion  
+BagType  0
+Activate  range  10
+amount  100
+HealNova
+feedPower  35
+DisplayId  {equip.Snake_Oil}
+Object
+type  0x707
+id  Healing Ichor
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x20
+SlotType  10
+Description  {equip.This_foul-smelling_spider_ichor_restores_health.}
+Sound  use_potion
+Activate  amount  150
+Heal
+Consumable  
+Potion  
+BagType  0
+feedPower  20
+DisplayId  {equip.Healing_Ichor}
+Object
+type  0xaeb
+id  Greater Health Potion
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x24
+SlotType  10
+Description  {equip.A_potion_that_instantly_restores_health_points.}
+Sound  use_potion
+Activate  amount  200
+Heal
+Consumable  
+Soulbound  
+Potion  
+BagType  0
+feedPower  50
+DisplayId  {equip.Greater_Health_Potion}
+Object
+type  0xaec
+id  Greater Magic Potion
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x25
+SlotType  10
+Description  {equip.A_potion_that_instantly_restores_magic_points.}
+Sound  use_potion
+Activate  amount  200
+Magic
+Consumable  
+Soulbound  
+Potion  
+BagType  0
+feedPower  50
+DisplayId  {equip.Greater_Magic_Potion}
+Object
+type  0x77b
+id  Tincture of Fear
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xc7
+SlotType  10
+Description  {equip.Adds_speed_and_reduces_attack.}
+Sound  use_potion
+Consumable  
+Soulbound  
+Potion  
+BagType  3
+Activate  stat  22
+amount  15
+duration  45
+StatBoostSelf
+Activate  stat  20
+amount  -15
+duration  60
+StatBoostSelf
+feedPower  10
+DisplayId  {equip.Tincture_of_Fear}
+Object
+type  0x77c
+id  Tincture of Courage
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xc7
+SlotType  10
+Description  {equip.Adds_attack_to_everyone_reduces_speed_for_self.}
+Sound  use_potion
+Consumable  
+Soulbound  
+Potion  
+BagType  3
+Activate  stat  22
+amount  -10
+duration  30
+StatBoostSelf
+Activate  stat  20
+amount  15
+duration  30
+StatBoostSelf
+feedPower  10
+DisplayId  {equip.Tincture_of_Courage}
+Object
+type  0xb0c
+id  Tincture of Dexterity
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xc7
+SlotType  10
+Description  {equip.A_potion_that_temporarily_boosts_dexterity.}
+Sound  use_potion
+Consumable  
+Soulbound  
+Potion  
+BagType  3
+Activate  stat  28
+amount  15
+duration  30
+StatBoostSelf
+feedPower  10
+DisplayId  {equip.Tincture_of_Dexterity}
+Object
+type  0xb0d
+id  Tincture of Life
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xc0
+SlotType  10
+Description  {equip.A_potion_that_temporarily_boosts_maximum_health_points.}
+Sound  use_potion
+Consumable  
+Soulbound  
+Potion  
+BagType  3
+Activate  stat  0
+amount  75
+duration  30
+StatBoostSelf
+feedPower  10
+DisplayId  {equip.Tincture_of_Life}
+Object
+type  0xb0e
+id  Tincture of Mana
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xc1
+SlotType  10
+Description  {equip.A_potion_that_temporarily_boosts_maximum_magic_points.}
+Sound  use_potion
+Consumable  
+Soulbound  
+Potion  
+BagType  3
+Activate  stat  3
+amount  75
+duration  30
+StatBoostSelf
+feedPower  10
+DisplayId  {equip.Tincture_of_Mana}
+Object
+type  0xb0f
+id  Tincture of Defense
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xc5
+SlotType  10
+Description  {equip.A_potion_that_temporarily_boosts_defense.}
+Sound  use_potion
+Consumable  
+Soulbound  
+Potion  
+BagType  3
+Activate  stat  21
+amount  15
+duration  30
+StatBoostSelf
+feedPower  15
+DisplayId  {equip.Tincture_of_Defense}
+Object
+type  0xb10
+id  Effusion of Dexterity
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xd7
+SlotType  10
+Description  {equip.A_potion_that_temporarily_boosts_the_dexterity_of_all_nearb}
+Sound  use_potion
+Consumable  
+Soulbound  
+Potion  
+BagType  3
+Activate  stat  28
+amount  30
+duration  30
+range  6
+StatBoostAura
+feedPower  20
+DisplayId  {equip.Effusion_of_Dexterity}
+Object
+type  0xb11
+id  Effusion of Life
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xd0
+SlotType  10
+Description  {equip.A_potion_that_temporarily_boosts_the_maximum_health_points_}
+Sound  use_potion
+Consumable  
+Soulbound  
+Potion  
+BagType  3
+Activate  stat  0
+amount  150
+duration  30
+range  6
+StatBoostAura
+feedPower  15
+DisplayId  {equip.Effusion_of_Life}
+Object
+type  0xb12
+id  Effusion of Mana
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xd1
+SlotType  10
+Description  {equip.A_potion_that_temporarily_boosts_the_maximum_magic_points_o}
+Sound  use_potion
+Consumable  
+Soulbound  
+Potion  
+BagType  3
+Activate  stat  3
+amount  150
+duration  30
+range  6
+StatBoostAura
+feedPower  15
+DisplayId  {equip.Effusion_of_Mana}
+Object
+type  0xb13
+id  Effusion of Defense
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0xd5
+SlotType  10
+Description  {equip.A_potion_that_temporarily_boosts_the_defense_of_all_nearby_}
+Sound  use_potion
+Consumable  
+Soulbound  
+Potion  
+BagType  3
+Activate  stat  21
+amount  30
+duration  30
+range  6
+StatBoostAura
+feedPower  20
+DisplayId  {equip.Effusion_of_Defense}
+Object
+type  0xa41
+id  Snake Eye Ring
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x02
+SlotType  9
+Description  {equip.A_ring_made_from_the_eye_of_the_Snake_Queen.}
+ActivateOnEquip  stat  20
+amount  3
+IncrementStat
+ActivateOnEquip  stat  22
+amount  3
+IncrementStat
+BagType  1
+feedPower  200
+Soulbound  
+DisplayId  {equip.Snake_Eye_Ring}
+Object
+type  0x708
+id  Spider's Eye Ring
+Class  Equipment
+Item  
+Texture  
+File  lofiObj2
+Index  0x21
+SlotType  9
+Description  {equip.A_ring_crafted_from_the_faceted_eye_of_an_enormous_spider.}
+ActivateOnEquip  stat  26
+amount  3
+IncrementStat
+ActivateOnEquip  stat  27
+amount  3
+IncrementStat
+BagType  1
+feedPower  200
+Soulbound  
+DisplayId  {equip.SpiderAPOSs_Eye_Ring}
+Object
+type  0xa4f
+id  Ring of Minor Defense
+Class  Equipment
+Item  
+Texture  
+File  lofiObj
+Index  0x2c
+SlotType  9
+Tier  0
+Description  {equip.A_silver_ring_that_buzzes_with_a_faint_magical_hum.}
+ActivateOnEquip  stat  21
+amount  1
+IncrementStat
+BagType  0
+feedPower  5
+DisplayId  {equip.Ring_of_Minor_Defense}
+Object
+type  0xa24
+id  Ring of Attack
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x80
+SlotType  9
+Tier  1
+Description  {equip.A_spinel_set_in_a_silver_ring.}
+ActivateOnEquip  stat  20
+amount  3
+IncrementStat
+BagType  0
+feedPower  20
+DisplayId  {equip.Ring_of_Attack}
+Object
+type  0xa25
+id  Ring of Defense
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x81
+SlotType  9
+Tier  1
+Description  {equip.An_onyx_set_in_a_silver_ring.}
+ActivateOnEquip  stat  21
+amount  3
+IncrementStat
+BagType  0
+feedPower  20
+DisplayId  {equip.Ring_of_Defense}
+Object
+type  0xa26
+id  Ring of Speed
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x82
+SlotType  9
+Tier  1
+Description  {equip.An_emerald_set_in_a_silver_ring.}
+ActivateOnEquip  stat  22
+amount  3
+IncrementStat
+BagType  0
+feedPower  20
+DisplayId  {equip.Ring_of_Speed}
+Object
+type  0xa36
+id  Ring of Vitality
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x83
+SlotType  9
+Tier  1
+Description  {equip.A_ruby_set_in_a_silver_ring.}
+ActivateOnEquip  stat  26
+amount  3
+IncrementStat
+BagType  0
+feedPower  20
+DisplayId  {equip.Ring_of_Vitality}
+Object
+type  0xa37
+id  Ring of Wisdom
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x84
+SlotType  9
+Tier  1
+Description  {equip.A_sapphire_set_in_a_silver_ring.}
+ActivateOnEquip  stat  27
+amount  3
+IncrementStat
+BagType  0
+feedPower  20
+DisplayId  {equip.Ring_of_Wisdom}
+Object
+type  0xa4d
+id  Ring of Dexterity
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x85
+SlotType  9
+Tier  1
+Description  {equip.A_citrine_set_in_a_silver_ring.}
+ActivateOnEquip  stat  28
+amount  3
+IncrementStat
+BagType  0
+feedPower  20
+DisplayId  {equip.Ring_of_Dexterity}
+Object
+type  0xa27
+id  Ring of Health
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x86
+SlotType  9
+Tier  1
+Description  {equip.A_topaz_set_in_a_silver_ring.}
+ActivateOnEquip  stat  0
+amount  40
+IncrementStat
+BagType  0
+feedPower  20
+DisplayId  {equip.Ring_of_Health}
+Object
+type  0xa28
+id  Ring of Magic
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x87
+SlotType  9
+Tier  1
+Description  {equip.An_amethyst_set_in_a_silver_ring.}
+ActivateOnEquip  stat  3
+amount  40
+IncrementStat
+BagType  0
+feedPower  20
+DisplayId  {equip.Ring_of_Magic}
+Object
+type  0xa29
+id  Ring of Greater Attack
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x90
+SlotType  9
+Tier  2
+Description  {equip.A_spinel_set_in_a_gold_ring.}
+ActivateOnEquip  stat  20
+amount  5
+IncrementStat
+BagType  1
+FameBonus  1
+feedPower  37
+DisplayId  {equip.Ring_of_Greater_Attack}
+Object
+type  0xa2a
+id  Ring of Greater Defense
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x91
+SlotType  9
+Tier  2
+Description  {equip.An_onyx_set_in_a_gold_ring.}
+ActivateOnEquip  stat  21
+amount  5
+IncrementStat
+BagType  1
+FameBonus  1
+feedPower  37
+DisplayId  {equip.Ring_of_Greater_Defense}
+Object
+type  0xa2b
+id  Ring of Greater Speed
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x92
+SlotType  9
+Tier  2
+Description  {equip.An_emerald_set_in_a_gold_ring.}
+ActivateOnEquip  stat  22
+amount  5
+IncrementStat
+BagType  1
+FameBonus  1
+feedPower  37
+DisplayId  {equip.Ring_of_Greater_Speed}
+Object
+type  0xa38
+id  Ring of Greater Vitality
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x93
+SlotType  9
+Tier  2
+Description  {equip.A_ruby_set_in_a_gold_ring.}
+ActivateOnEquip  stat  26
+amount  5
+IncrementStat
+BagType  1
+FameBonus  1
+feedPower  37
+DisplayId  {equip.Ring_of_Greater_Vitality}
+Object
+type  0xa39
+id  Ring of Greater Wisdom
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x94
+SlotType  9
+Tier  2
+Description  {equip.A_sapphire_set_in_a_gold_ring.}
+ActivateOnEquip  stat  27
+amount  5
+IncrementStat
+BagType  1
+FameBonus  1
+feedPower  37
+DisplayId  {equip.Ring_of_Greater_Wisdom}
+Object
+type  0xa4e
+id  Ring of Greater Dexterity
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x95
+SlotType  9
+Tier  2
+Description  {equip.A_citrine_set_in_a_gold_ring.}
+ActivateOnEquip  stat  28
+amount  5
+IncrementStat
+BagType  1
+FameBonus  1
+feedPower  37
+DisplayId  {equip.Ring_of_Greater_Dexterity}
+Object
+type  0xa2c
+id  Ring of Greater Health
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x96
+SlotType  9
+Tier  2
+Description  {equip.A_topaz_set_in_a_gold_ring.}
+ActivateOnEquip  stat  0
+amount  80
+IncrementStat
+BagType  1
+FameBonus  1
+feedPower  37
+DisplayId  {equip.Ring_of_Greater_Health}
+Object
+type  0xa2d
+id  Ring of Greater Magic
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0x97
+SlotType  9
+Tier  2
+Description  {equip.An_amethyst_set_in_a_gold_ring.}
+ActivateOnEquip  stat  3
+amount  80
+IncrementStat
+BagType  1
+FameBonus  1
+feedPower  37
+DisplayId  {equip.Ring_of_Greater_Magic}
+Object
+type  0xab7
+id  Ring of Superior Attack
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0xa0
+SlotType  9
+Tier  3
+Description  {equip.A_large_spinel_set_in_a_glittering_gold_ring.}
+ActivateOnEquip  stat  20
+amount  6
+IncrementStat
+BagType  1
+FameBonus  2
+feedPower  75
+DisplayId  {equip.Ring_of_Superior_Attack}
+Object
+type  0xab8
+id  Ring of Superior Defense
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0xa1
+SlotType  9
+Tier  3
+Description  {equip.A_large_onyx_set_in_a_glittering_gold_ring.}
+ActivateOnEquip  stat  21
+amount  6
+IncrementStat
+BagType  1
+FameBonus  2
+feedPower  75
+DisplayId  {equip.Ring_of_Superior_Defense}
+Object
+type  0xab9
+id  Ring of Superior Speed
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0xa2
+SlotType  9
+Tier  3
+Description  {equip.A_large_emerald_set_in_a_glittering_gold_ring.}
+ActivateOnEquip  stat  22
+amount  6
+IncrementStat
+BagType  1
+FameBonus  2
+feedPower  75
+DisplayId  {equip.Ring_of_Superior_Speed}
+Object
+type  0xaba
+id  Ring of Superior Vitality
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0xa3
+SlotType  9
+Tier  3
+Description  {equip.A_large_ruby_set_in_a_glittering_gold_ring.}
+ActivateOnEquip  stat  26
+amount  6
+IncrementStat
+BagType  1
+FameBonus  2
+feedPower  75
+DisplayId  {equip.Ring_of_Superior_Vitality}
+Object
+type  0xabb
+id  Ring of Superior Wisdom
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0xa4
+SlotType  9
+Tier  3
+Description  {equip.A_large_sapphire_set_in_a_glittering_gold_ring.}
+ActivateOnEquip  stat  27
+amount  6
+IncrementStat
+BagType  1
+FameBonus  2
+feedPower  75
+DisplayId  {equip.Ring_of_Superior_Wisdom}
+Object
+type  0xabc
+id  Ring of Superior Dexterity
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0xa5
+SlotType  9
+Tier  3
+Description  {equip.A_large_citrine_set_in_a_glittering_gold_ring.}
+ActivateOnEquip  stat  28
+amount  6
+IncrementStat
+BagType  1
+FameBonus  2
+feedPower  75
+DisplayId  {equip.Ring_of_Superior_Dexterity}
+Object
+type  0xabd
+id  Ring of Superior Health
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0xa6
+SlotType  9
+Tier  3
+Description  {equip.A_large_topaz_set_in_a_glittering_gold_ring.}
+ActivateOnEquip  stat  0
+amount  100
+IncrementStat
+BagType  1
+FameBonus  2
+feedPower  75
+DisplayId  {equip.Ring_of_Superior_Health}
+Object
+type  0xabe
+id  Ring of Superior Magic
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0xa7
+SlotType  9
+Tier  3
+Description  {equip.A_large_amethyst_set_in_a_glittering_gold_ring.}
+ActivateOnEquip  stat  3
+amount  100
+IncrementStat
+BagType  1
+FameBonus  2
+feedPower  75
+DisplayId  {equip.Ring_of_Superior_Magic}
+Object
+type  0xabf
+id  Ring of Paramount Attack
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0xb0
+SlotType  9
+Tier  4
+Description  {equip.A_very_large_spinel_set_in_a_dazzling_gold_ring.}
+ActivateOnEquip  stat  20
+amount  7
+IncrementStat
+BagType  2
+FameBonus  3
+feedPower  150
+DisplayId  {equip.Ring_of_Paramount_Attack}
+Object
+type  0xac0
+id  Ring of Paramount Defense
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0xb1
+SlotType  9
+Tier  4
+Description  {equip.A_very_large_onyx_set_in_a_dazzling_gold_ring.}
+ActivateOnEquip  stat  21
+amount  7
+IncrementStat
+BagType  2
+FameBonus  3
+feedPower  150
+DisplayId  {equip.Ring_of_Paramount_Defense}
+Object
+type  0xac1
+id  Ring of Paramount Speed
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0xb2
+SlotType  9
+Tier  4
+Description  {equip.A_very_large_emerald_set_in_a_dazzling_gold_ring.}
+ActivateOnEquip  stat  22
+amount  7
+IncrementStat
+BagType  2
+FameBonus  3
+feedPower  150
+DisplayId  {equip.Ring_of_Paramount_Speed}
+Object
+type  0xac2
+id  Ring of Paramount Vitality
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0xb3
+SlotType  9
+Tier  4
+Description  {equip.A_very_large_ruby_set_in_a_dazzling_gold_ring.}
+ActivateOnEquip  stat  26
+amount  7
+IncrementStat
+BagType  2
+FameBonus  3
+feedPower  150
+DisplayId  {equip.Ring_of_Paramount_Vitality}
+Object
+type  0xac3
+id  Ring of Paramount Wisdom
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0xb4
+SlotType  9
+Tier  4
+Description  {equip.A_very_large_sapphire_set_in_a_dazzling_gold_ring.}
+ActivateOnEquip  stat  27
+amount  7
+IncrementStat
+BagType  2
+FameBonus  3
+feedPower  150
+DisplayId  {equip.Ring_of_Paramount_Wisdom}
+Object
+type  0xac4
+id  Ring of Paramount Dexterity
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0xb5
+SlotType  9
+Tier  4
+Description  {equip.A_very_large_citrine_set_in_a_dazzling_gold_ring.}
+ActivateOnEquip  stat  28
+amount  7
+IncrementStat
+BagType  2
+FameBonus  3
+feedPower  150
+DisplayId  {equip.Ring_of_Paramount_Dexterity}
+Object
+type  0xac5
+id  Ring of Paramount Health
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0xb6
+SlotType  9
+Tier  4
+Description  {equip.A_very_large_topaz_set_in_a_dazzling_gold_ring.}
+ActivateOnEquip  stat  0
+amount  120
+IncrementStat
+BagType  2
+FameBonus  3
+feedPower  150
+DisplayId  {equip.Ring_of_Paramount_Health}
+Object
+type  0xac6
+id  Ring of Paramount Magic
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0xb7
+SlotType  9
+Tier  4
+Description  {equip.A_very_large_amethyst_set_in_a_dazzling_gold_ring.}
+ActivateOnEquip  stat  3
+amount  120
+IncrementStat
+BagType  2
+FameBonus  3
+feedPower  150
+DisplayId  {equip.Ring_of_Paramount_Magic}
+Object
+type  0xac7
+id  Ring of Exalted Attack
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0xc0
+SlotType  9
+Tier  5
+Description  {equip.A_huge,_flawless_spinel_set_in_a_stunningly_beautiful_gold_}
+ActivateOnEquip  stat  20
+amount  8
+IncrementStat
+BagType  2
+FameBonus  4
+feedPower  300
+DisplayId  {equip.Ring_of_Exalted_Attack}
+Object
+type  0xac8
+id  Ring of Exalted Defense
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0xc1
+SlotType  9
+Tier  5
+Description  {equip.A_huge,_flawless_onyx_set_in_a_stunningly_beautiful_gold_ri}
+ActivateOnEquip  stat  21
+amount  8
+IncrementStat
+BagType  2
+FameBonus  4
+feedPower  300
+DisplayId  {equip.Ring_of_Exalted_Defense}
+Object
+type  0xac9
+id  Ring of Exalted Speed
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0xc2
+SlotType  9
+Tier  5
+Description  {equip.A_huge,_flawless_emerald_set_in_a_stunningly_beautiful_gold}
+ActivateOnEquip  stat  22
+amount  8
+IncrementStat
+BagType  2
+FameBonus  4
+feedPower  300
+DisplayId  {equip.Ring_of_Exalted_Speed}
+Object
+type  0xaca
+id  Ring of Exalted Vitality
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0xc3
+SlotType  9
+Tier  5
+Description  {equip.A_huge,_flawless_ruby_set_in_a_stunningly_beautiful_gold_ri}
+ActivateOnEquip  stat  26
+amount  8
+IncrementStat
+BagType  2
+FameBonus  4
+feedPower  300
+DisplayId  {equip.Ring_of_Exalted_Vitality}
+Object
+type  0xacb
+id  Ring of Exalted Wisdom
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0xc4
+SlotType  9
+Tier  5
+Description  {equip.A_huge,_flawless_sapphire_set_in_a_stunningly_beautiful_gol}
+ActivateOnEquip  stat  27
+amount  8
+IncrementStat
+BagType  2
+FameBonus  4
+feedPower  300
+DisplayId  {equip.Ring_of_Exalted_Wisdom}
+Object
+type  0xacc
+id  Ring of Exalted Dexterity
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0xc5
+SlotType  9
+Tier  5
+Description  {equip.A_huge,_flawless_citrine_set_in_a_stunningly_beautiful_gold}
+ActivateOnEquip  stat  28
+amount  8
+IncrementStat
+BagType  2
+FameBonus  4
+feedPower  300
+DisplayId  {equip.Ring_of_Exalted_Dexterity}
+Object
+type  0xacd
+id  Ring of Exalted Health
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0xc6
+SlotType  9
+Tier  5
+Description  {equip.A_huge,_flawless_topaz_set_in_a_stunningly_beautiful_gold_r}
+ActivateOnEquip  stat  0
+amount  140
+IncrementStat
+BagType  2
+FameBonus  4
+feedPower  300
+DisplayId  {equip.Ring_of_Exalted_Health}
+Object
+type  0xace
+id  Ring of Exalted Magic
+Class  Equipment
+Item  
+Texture  
+File  lofiObj5
+Index  0xc7
+SlotType  9
+Tier  5
+Description  {equip.A_huge,_flawless_amethyst_set_in_a_stunningly_beautiful_gol}
+ActivateOnEquip  stat  3
+amount  140
+IncrementStat
+BagType  2
+FameBonus  4
+feedPower  300
+DisplayId  {equip.Ring_of_Exalted_Magic}
+Object
+type  0xba3
+id  Ring of Unbound Attack
+Class  Equipment
+Item  
+Texture  
+File  lofiObj3
+Index  0x488
+SlotType  9
+Tier  6
+Description  {equip.A_huge,_flawless_spinel_set_in_a_stunningly_beautiful_gold_}
+ActivateOnEquip  stat  20
+amount  9
+IncrementStat
+BagType  2
+FameBonus  5
+feedPower  325
+DisplayId  {equip.Ring_of_Unbound_Attack}
+Object
+type  0xba4
+id  Ring of Unbound Defense
+Class  Equipment
+Item  
+Texture  
+File  lofiObj3
+Index  0x489
+SlotType  9
+Tier  6
+Description  {equip.A_huge,_flawless_onyx_set_in_a_stunningly_beautiful_gold_ri}
+ActivateOnEquip  stat  21
+amount  9
+IncrementStat
+BagType  2
+FameBonus  5
+feedPower  325
+DisplayId  {equip.Ring_of_Unbound_Defense}
+Object
+type  0xba5
+id  Ring of Unbound Speed
+Class  Equipment
+Item  
+Texture  
+File  lofiObj3
+Index  0x48a
+SlotType  9
+Tier  6
+Description  {equip.A_huge,_flawless_emerald_set_in_a_stunningly_beautiful_gold}
+ActivateOnEquip  stat  22
+amount  9
+IncrementStat
+BagType  2
+FameBonus  5
+feedPower  325
+DisplayId  {equip.Ring_of_Unbound_Speed}
+Object
+type  0xba6
+id  Ring of Unbound Vitality
+Class  Equipment
+Item  
+Texture  
+File  lofiObj3
+Index  0x48b
+SlotType  9
+Tier  6
+Description  {equip.A_huge,_flawless_ruby_set_in_a_stunningly_beautiful_gold_ri}
+ActivateOnEquip  stat  26
+amount  9
+IncrementStat
+BagType  2
+FameBonus  5
+feedPower  325
+DisplayId  {equip.Ring_of_Unbound_Vitality}
+Object
+type  0xba7
+id  Ring of Unbound Wisdom
+Class  Equipment
+Item  
+Texture  
+File  lofiObj3
+Index  0x48c
+SlotType  9
+Tier  6
+Description  {equip.A_huge,_flawless_sapphire_set_in_a_stunningly_beautiful_gol}
+ActivateOnEquip  stat  27
+amount  9
+IncrementStat
+BagType  2
+FameBonus  5
+feedPower  325
+DisplayId  {equip.Ring_of_Unbound_Wisdom}
+Object
+type  0xba8
+id  Ring of Unbound Dexterity
+Class  Equipment
+Item  
+Texture  
+File  lofiObj3
+Index  0x48d
+SlotType  9
+Tier  6
+Description  {equip.A_huge,_flawless_citrine_set_in_a_stunningly_beautiful_gold}
+ActivateOnEquip  stat  28
+amount  9
+IncrementStat
+BagType  2
+FameBonus  5
+feedPower  325
+DisplayId  {equip.Ring_of_Unbound_Dexterity}
+Object
+type  0xba9
+id  Ring of Unbound Health
+Class  Equipment
+Item  
+Texture  
+File  lofiObj3
+Index  0x48e
+SlotType  9
+Tier  6
+Description  {equip.A_huge,_flawless_topaz_set_in_a_stunningly_beautiful_gold_r}
+ActivateOnEquip  stat  0
+amount  180
+IncrementStat
+BagType  2
+FameBonus  5
+feedPower  325
+DisplayId  {equip.Ring_of_Unbound_Health}
+Object
+type  0xbaa
+id  Ring of Unbound Magic
+Class  Equipment
+Item  
+Texture  
+File  lofiObj3
+Index  0x48f
+SlotType  9
+Tier  6
+Description  {equip.A_huge,_flawless_amethyst_set_in_a_stunningly_beautiful_gol}
+ActivateOnEquip  stat  3
+amount  180
+IncrementStat
+BagType  2
+FameBonus  5
+feedPower  325
+DisplayId  {equip.Ring_of_Unbound_Magic}
+Object
+type  0xbab
+id  The Forgotten Crown
+Class  Equipment
+Item  
+Texture  
+File  lofiObj3
+Index  0x480
+SlotType  9
+Description  {equip.An_eerie_reminder_of_what_lays_in_the_depths_of_the_Shatter}
+ActivateOnEquip  stat  28
+amount  6
+IncrementStat
+ActivateOnEquip  stat  20
+amount  6
+IncrementStat
+ActivateOnEquip  stat  0
+amount  110
+IncrementStat
+BagType  4
+FameBonus  5
+feedPower  500
+Soulbound  
+DisplayId  {equip.The_Forgotten_Crown}
+Object
+type  0xbac
+id  The Twilight Gemstone
+Class  Equipment
+Item  
+Texture  
+File  lofiObj3
+Index  0x481
+SlotType  9
+Description  {equip.An_odd_stone,_eminating_a_dark_and_mysterious_energy.}
+ActivateOnEquip  stat  22
+amount  6
+IncrementStat
+ActivateOnEquip  stat  21
+amount  6
+IncrementStat
+ActivateOnEquip  stat  3
+amount  110
+IncrementStat
+BagType  4
+FameBonus  5
+feedPower  500
+Soulbound  
+DisplayId  {equip.The_Twilight_Gemstone}
+Object
+type  0xbad
+id  Bracer of the Guardian
+Class  Equipment
+Item  
+Texture  
+File  lofiObj3
+Index  0x482
+SlotType  9
+Description  {equip.Wearing_it_makes_you_feel_particularly_strong.}
+ActivateOnEquip  stat  21
+amount  6
+IncrementStat
+ActivateOnEquip  stat  20
+amount  6
+IncrementStat
+ActivateOnEquip  stat  0
+amount  60
+IncrementStat
+ActivateOnEquip  stat  3
+amount  60
+IncrementStat
+BagType  4
+FameBonus  5
+feedPower  500
+Soulbound  
+DisplayId  {equip.Bracer_of_the_Guardian}
+Object
+type  0xba0
+id  Ring of the Sphinx
+Class  Equipment
+Item  
+Texture  
+File  lofiObj4
+Index  0xa0
+SlotType  9
+Description  {equip.The_malachite_stone_makes_you_feel_at_peace_with_the_land.}
+ActivateOnEquip  stat  27
+amount  4
+IncrementStat
+ActivateOnEquip  stat  28
+amount  4
+IncrementStat
+ActivateOnEquip  stat  3
+amount  100
+IncrementStat
+BagType  4
+FameBonus  5
+feedPower  500
+Soulbound  
+DisplayId  {equip.Ring_of_the_Sphinx}
+Object
+type  0xba1
+id  Ring of the Nile
+Class  Equipment
+Item  
+Texture  
+File  lofiObj4
+Index  0xa1
+SlotType  9
+Description  {equip.The_azule_stone_makes_you_feel_ready_for_any_situation.}
+ActivateOnEquip  stat  22
+amount  4
+IncrementStat
+ActivateOnEquip  stat  28
+amount  4
+IncrementStat
+ActivateOnEquip  stat  0
+amount  60
+IncrementStat
+ActivateOnEquip  stat  3
+amount  60
+IncrementStat
+BagType  4
+FameBonus  5
+feedPower  900
+Soulbound  
+DisplayId  {equip.Ring_of_the_Nile}
+Object
+type  0xba2
+id  Ring of the Pyramid
+Class  Equipment
+Item  
+Texture  
+File  lofiObj4
+Index  0xa2
+SlotType  9
+Description  {equip.The_dolomite_stone_makes_you_feel_able_to_stand_against_any}
+ActivateOnEquip  stat  20
+amount  4
+IncrementStat
+ActivateOnEquip  stat  21
+amount  4
+IncrementStat
+ActivateOnEquip  stat  0
+amount  100
+IncrementStat
+BagType  4
+FameBonus  5
+feedPower  900
+Soulbound  
+DisplayId  {equip.Ring_of_the_Pyramid}
+Object
+type  0xa2e
+id  Fire Spray Spell
+Class  Equipment
+Item  
+Texture  
+File  lofiObj6
+Index  0x40
+SlotType  11
+Tier  0
+Description  {equip.A_spell_that_shoots_fire_in_all_directions.}
+Sound  spell/fire_spray
+Projectile  
+ObjectId  Fire Bolt
+Speed  160
+MinDamage  25
+MaxDamage  40
+LifetimeMS  1000
+Usable  
+BagType  0
+MpCost  30
+Activate  BulletNova
+feedPower  5
+DisplayId  {equip.Fire_Spr

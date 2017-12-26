@@ -1,0 +1,36 @@
+C:\Users\Gaz\Desktop\packet ids\packet ids.exw:19
+bad file number (-1) 
+
+
+Global & Local Variables
+
+ c:\Euphoria\include\misc.e:
+    pretty_end_col = <no value>
+    pretty_chars = <no value>
+    pretty_start_col = <no value>
+    pretty_level = <no value>
+    pretty_file = <no value>
+    pretty_ascii = <no value>
+    pretty_indent = <no value>
+    pretty_ascii_min = <no value>
+    pretty_ascii_max = <no value>
+    pretty_line_count = <no value>
+    pretty_line_max = <no value>
+    pretty_dots = <no value>
+    pretty_fp_format = <no value>
+    pretty_int_format = <no value>
+    pretty_line = <no value>
+
+ C:\Users\Gaz\Desktop\packet ids\packet ids.exw:
+    line = <no value>
+    buffer = {}
+    fn = -1
+    pos = 0
+    keyline = 0
+    packets = <no value>
+    pos1 = <no value>
+    pos2 = <no value>
+    pos3 = <no value>
+    pline = <no value>
+
+
